@@ -69,9 +69,9 @@ This project validates or disconfirms that claim. It tests JPCUB retrospectively
 - [x] Practical applications extension (5 domains, D-06)
 - [x] Counterfactual backcasting (4 disciplines × 2-3 tiers, D-07)
 
-### Phase 5: Publication
-- [ ] Write paper (Genre A, Springer Nature template)
-- [ ] PDF build and verification
+### Phase 5: Publication (IN PROGRESS — paper.md + paper.pdf built 2026-07-31)
+- [x] Write paper (Genre A, Springer Nature style via Pandoc+XeLaTeX) — paper.md written, 8 sections, ~25 citations
+- [x] PDF build and verification — 13 pages, zero U+FFFD/U+FFFF errors
 - [ ] Zenodo upload with DOI
 
 ### Phase 6: Deployment
