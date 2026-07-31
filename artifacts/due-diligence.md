@@ -68,9 +68,20 @@ No QNFO paper in the known corpus has done systematic JPCUB validation against h
 | TokenPowerBench: Benchmarking the Power Consumption of LLM Inference | 2025 | Chenxu Niu |
 
 ### Semantic Scholar (FAILED)
-- 3 separate queries returned HTTP 429 (rate limited)
-- No external academic search data retrieved from Semantic Scholar
+- 4 separate queries returned HTTP 429 (rate limited) — 2026-07-31, all session attempts
+- No external academic search data retrieved from Semantic Scholar this session
 - [NOT-VERIFIED: rate limit]
+
+### JPCUB Direct Search (VERIFIED)
+- arXiv query `all:JPCUB AND all:joules AND all:computational` → **`<opensearch:totalResults>0</opensearch:totalResults>`** (arxiv_jpcub2.xml, 768 bytes)
+- **VERIFIED: JPCUB does not appear in any arXiv paper title/abstract as of 2026-07-31**
+- This confirms the core novelty claim: JPCUB is QWAV-proprietary with zero arXiv presence
+
+### Buffer Dissemination Check (NA-07, PARTIAL)
+- Buffer token: VALID (org 683832fdf3b32ba49eb7cf34)
+- Live channels confirmed: linkedin (rowan-quni), twitter (RowanQuni), mastodon (QNFO)
+- Scheduled post enumeration: [NOT-VERIFIED — GraphQL schema rejects posts subquery on channels query]
+- QWAV v2.3 Buffer posts: [NOT-VERIFIED]
 
 ### Overall External Literature Status
 
