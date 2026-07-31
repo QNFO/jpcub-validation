@@ -1,23 +1,14 @@
-# JPCUB Validation: Predictive Metric for Computing Paradigm Shifts
+# JPCUB Predictive Validation
 
-**Status:** Phase 0 (Project Initialization)
-**Author:** QNFO/QWAV Research
-**License:** QNFO Unified License Agreement (QNFO-ULA)
+**Joules Per Computational Unit** — Hardware-independent, workload-normalized computing efficiency metric validation.
 
-## Overview
-
-Validates JPCUB (Joules-per-Computational-Unit-of-Benefit) as a predictive metric for computing paradigm shifts. Tests whether JPCUB retrospectively ranks historical computing transitions better than traditional metrics (FLOPS, MIPS, transistor count), and prospectively differentiates the 7 post-silicon candidates identified in the computing-machines paper.
-
-## Core Claim
-
-JPCUB is a causally relevant metric for computing substrate selection — it retrospectively identifies paradigm shifts before they occur and prospectively ranks competing post-silicon candidates in order of likely commercial viability.
+**Status:** Phase 4 Complete (lightweight) | **Genre:** Epistemic (A)
 
 ## Quick Start
+- **Plan:** `PROJECT-PLAN.md`
+- **Phase 4:** `artifacts/structured-forecast-protocol-v2.md` — Lightweight Phase 4 with 5 assumptions, qualitative ranking, sensitivity, calibration register, Stage 9 (4 domains: procurement, cloud pricing, regulation, hardware design), Stage 10 (2 fork tiers: Green500 2010, microprocessor 1970s)
+- **Due Diligence:** `artifacts/due-diligence.md`
+- **Literature:** `artifacts/literature-review.md`
 
-See [PROJECT-PLAN.md](PROJECT-PLAN.md) for the full work breakdown structure and research protocol.
-
-## Links
-
-- computing-machines paper: DOI [10.5281/zenodo.21713202](https://doi.org/10.5281/zenodo.21713202)
-- QWAV whitepaper v2.3: DOI [10.5281/zenodo.21713222](https://doi.org/10.5281/zenodo.21713222)
-- consilient-gap-synthesis: DOI [10.5281/zenodo.21711000](https://doi.org/10.5281/zenodo.21711000)
+## Core Claim
+The JPCUB metric provides a hardware-independent, workload-normalized measure of computing efficiency. Validation requires demonstrating that JPCUB rankings are robust under workload perturbation, architecture variation, and temporal drift.
