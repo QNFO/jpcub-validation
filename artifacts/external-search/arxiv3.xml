@@ -1,0 +1,961 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/IoLdaAbU65F8mDoNjVX2MiYDdng</id>
+  <title>arXiv Query: search_query=all:post-silicon AND all:computing&amp;id_list=&amp;start=0&amp;max_results=30</title>
+  <updated>2026-07-31T06:09:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:post-silicon+AND+all:computing&amp;start=0&amp;max_results=30&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>30</opensearch:itemsPerPage>
+  <opensearch:totalResults>62</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1705.04986v1</id>
+    <title>Statistical Timing Analysis and Criticality Computation for Circuits with Post-Silicon Clock Tuning Elements</title>
+    <updated>2017-05-14T16:03:30Z</updated>
+    <link href="https://arxiv.org/abs/1705.04986v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.04986v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Post-silicon clock tuning elements are widely used in high-performance designs to mitigate the effects of process variations and aging. Located on clock paths to flip-flops, these tuning elements can be configured through the scan chain so that clock skews to these flip-flops can be adjusted after man- ufacturing. Owing to the delay compensation across consecutive register stages enabled by the clock tuning elements, higher yield and enhanced robustness can be achieved. These benefits are, nonetheless, attained by increasing die area due to the inserted clock tuning elements. For balancing performance improvement and area cost, an efficient timing analysis algorithm is needed to evaluate the performance of such a circuit. So far this evaluation is only possible by Monte Carlo simulation which is very timing- consuming. In this paper, we propose an alternative method using graph transformation, which computes a parametric minimum clock period and is more than 10 4 times faster than Monte Carlo simulation while maintaining a good accuracy. This method also identifies the gates that are critical to circuit performance, so that a fast analysis-optimization flow becomes possible.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-14T16:03:30Z</published>
+    <arxiv:comment>IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, November 2015</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Bing Li</name>
+    </author>
+    <author>
+      <name>Ulf Schlichtmann</name>
+    </author>
+    <arxiv:doi>10.1109/TCAD.2015.2432143</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TCAD.2015.2432143" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.04979v1</id>
+    <title>Fast Statistical Timing Analysis for Circuits with Post-Silicon Tunable Clock Buffers</title>
+    <updated>2017-05-14T15:39:59Z</updated>
+    <link href="https://arxiv.org/abs/1705.04979v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.04979v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Post-Silicon Tunable (PST) clock buffers are widely used in high performance designs to counter process variations. By allowing delay compensation between consecutive register stages, PST buffers can effectively improve the yield of digital circuits. To date, the evaluation of manufacturing yield in the presence of PST buffers is only possible using Monte Carlo simulation. In this paper, we propose an alternative method based on graph transformations, which is much faster, more than 1000 times, and computes a parametric minimum clock period. It also identifies the gates which are most critical to the circuit performance, therefore enabling a fast analysis-optimization flow.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-14T15:39:59Z</published>
+    <arxiv:comment>IEEE/ACM International Conference on Computer-Aided Design (ICCAD), 2011</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Bing Li</name>
+    </author>
+    <author>
+      <name>Ning Chen</name>
+    </author>
+    <author>
+      <name>Ulf Schlichtmann</name>
+    </author>
+    <arxiv:doi>10.1109/ICCAD.2011.6105314</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ICCAD.2011.6105314" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.12901v1</id>
+    <title>A Communication-Centric Observability Selection for Post-Silicon System-on-Chip Integration Debug</title>
+    <updated>2019-07-17T22:23:44Z</updated>
+    <link href="https://arxiv.org/abs/1907.12901v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.12901v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reconstruction of how components communicate with each other during system execution is crucial for debugging system-on-chip designs. However, limited observability is the major obstacle to the efficient and accurate reconstruction in the post-silicon validation stage. This paper addresses that problem by proposing several communication event selection methods guided by system-level communication protocols. Such methods are optimized for on-chip communication event tracing infrastructure to enhance observability. The effectiveness of these methods are demonstrated with experiments on a non-trivial multicore SoC prototype. The results show that with the proposed method, more comprehensive information on system internal execution can be inferred from traces under limited observability.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-17T22:23:44Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Yuting Cao</name>
+    </author>
+    <author>
+      <name>Hao Zheng</name>
+    </author>
+    <author>
+      <name>Sandip Ray</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.03503v1</id>
+    <title>Post-Fabrication Trimming of Silicon Photonic Ring Resonators at Wafer-Scale</title>
+    <updated>2022-03-04T15:08:45Z</updated>
+    <link href="https://arxiv.org/abs/2203.03503v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.03503v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Silicon ring resonator-based devices, such as modulators, detectors, filters, and switches, play important roles in integrated photonic circuits for optical communication, high-performance computing, and sensing applications. However, the high sensitivity to fabrication variations has limited their volume manufacturability and commercial adoption. Here, we report a low-cost post-fabrication trimming method to tune the resonance wavelength of a silicon ring resonator and correct for fabrication variations at wafer-scale. We use a Ge implant to create an index trimmable section in the ring resonator and an on-chip heater to apply a precise and localized thermal annealing to tune and set its resonance to a desired wavelength. We demonstrate resonance wavelength trimming of ring resonators fabricated across a 300 mm silicon-on-insulator (SOI) wafer to within +/-32 pm of a target wavelength of 1310 nm, providing a viable path to high-volume manufacturing and opening up new practical applications for these devices.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-04T15:08:45Z</published>
+    <arxiv:comment>6 Pages, 5 figures. Accepted for publication in Journal of Lightwave Technology, 03 May 2021</arxiv:comment>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <arxiv:journal_ref>in Journal of Lightwave Technology, vol. 39, no. 15, pp. 5083-5088, Aug.1, 2021</arxiv:journal_ref>
+    <author>
+      <name>Hasitha Jayatilleka</name>
+    </author>
+    <author>
+      <name>Harel Frish</name>
+    </author>
+    <author>
+      <name>Ranjeet Kumar</name>
+    </author>
+    <author>
+      <name>John Heck</name>
+    </author>
+    <author>
+      <name>Chaoxuan Ma</name>
+    </author>
+    <author>
+      <name>Meer Sakib</name>
+    </author>
+    <author>
+      <name>Duanni Huang</name>
+    </author>
+    <author>
+      <name>Haisheng Rong</name>
+    </author>
+    <arxiv:doi>10.1109/JLT.2021.3079801</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/JLT.2021.3079801" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.16622v1</id>
+    <title>Cognitive Silicon: An Architectural Blueprint for Post-Industrial Computing Systems</title>
+    <updated>2025-04-23T11:24:30Z</updated>
+    <link href="https://arxiv.org/abs/2504.16622v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.16622v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Autonomous AI systems reveal foundational limitations in deterministic, human-authored computing architectures. This paper presents Cognitive Silicon: a hypothetical full-stack architectural framework projected toward 2035, exploring a possible trajectory for cognitive computing system design. The proposed architecture would integrate symbolic scaffolding, governed memory, runtime moral coherence, and alignment-aware execution across silicon-to-semantics layers. Our design grammar has emerged from dialectical co-design with LLMs under asymmetric epistemic conditions--creating structured friction to expose blind spots and trade-offs. The envisioned framework would establish mortality as a natural consequence of physical constraints, non-copyable tacit knowledge, and non-cloneable identity keys as cognitive-embodiment primitives. Core tensions (trust/agency, scaffolding/emergence, execution/governance) would function as central architectural pressures rather than edge cases. The architecture theoretically converges with the Free Energy Principle, potentially offering a formal account of how cognitive systems could maintain identity through prediction error minimization across physical and computational boundaries. The resulting framework aims to deliver a morally tractable cognitive infrastructure that could maintain human-alignment through irreversible hardware constraints and identity-bound epistemic mechanisms resistant to replication or subversion.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-23T11:24:30Z</published>
+    <arxiv:comment>Working Paper, 37 pages, 1 figure, 5 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Christoforus Yoga Haryanto</name>
+    </author>
+    <author>
+      <name>Emily Lomempow</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.22635v1</id>
+    <title>Design and Development of a Neuromorphic Silicon Suite: PVT Sensing, Stochastic LIF Inference, On-Chip STDP Learning, and Crossbar Programming</title>
+    <updated>2026-06-21T18:46:33Z</updated>
+    <link href="https://arxiv.org/abs/2606.22635v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.22635v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Edge neuromorphic systems need compact, configurable hardware that combines probabilistic inference, local learning, and an interface to emerging analogue memory. We present four interface-compatible digital IP blocks implemented as standard-cell CMOS on the SkyWater 130 nm process: a process, voltage and temperature (PVT) sensor built from five selectable ring oscillators that also provides a jitter-based true-random-number generator and a frequency-bounds health monitor; a stochastic leaky integrate-and-fire (LIF) neuron with a configurable LFSR, a programmable activation table, and a refractory period; an on-chip spike-timing-dependent plasticity (STDP) controller with a programmable curve and reward-modulated, eligibility-trace, and anti-Hebbian modes; and a memristive-crossbar controller supporting forming, set, reset, read, and automated current-voltage sweep with current-compliance limiting and half-select biasing. All four blocks share a common serial peripheral interface (SPI) register file; the sensor also exposes a parallel readout. Each occupies a single tile at a 50 MHz target. The suite was verified with 99 cocotb tests at register-transfer and gate level (all passing) and taken through an open standard-cell flow, then submitted for tapeout via the Tiny Tapeout shared-silicon programme. Mapped to the open cell library, each block occupies a post-synthesis cell area of 9.3 to 10.6 thousand square micrometres, places at 61 to 70 per cent tile utilisation, meets the 50 MHz constraint with positive setup and hold margin after clock-tree synthesis, and draws an estimated 0.64 to 0.70 mW under a default switching-activity assumption. The contribution is a coherent, openly released set of building blocks unified by one register interface and one verification flow. All results are from simulation and the implementation flow; no fabricated silicon is reported.</summary>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-21T18:46:33Z</published>
+    <arxiv:comment>20 pages, 14 figures, 8 tables. Pre-silicon: RTL with OpenLane/OpenROAD implementation on the SkyWater 130 nm open PDK via Tiny Tapeout (shuttle ttsky26a); no fabricated silicon. Source, testbenches, and layout configuration are publicly available</arxiv:comment>
+    <arxiv:primary_category term="cs.ET"/>
+    <author>
+      <name>Poornima Kumaresan</name>
+    </author>
+    <author>
+      <name>Santhosh Sivasubramani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.08266v1</id>
+    <title>Ion-Implanted Silicon Nanoregions Enable Ultra-Low-Loss Trimming of Cladded Photonic Integrated Circuits</title>
+    <updated>2026-07-09T09:08:33Z</updated>
+    <link href="https://arxiv.org/abs/2607.08266v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.08266v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Photonic integrated circuits (PICs) have emerged as a key platform for information processing, including optical communication and computing. As PIC complexity increases, fabrication-induced response deviations accumulate, making post-fabrication trimming critical for unlocking their full potential. Here, we demonstrate that silicon ion implantation enables scalable, ultra-low-loss trimming of cladded PICs by locally forming a high-index silicon-rich region. Structural characterization confirms that the silicon-implanted nanoregion is confined to the cladding without observable damage to the underlying waveguide. The implantation-induced excess loss is below 0.001 dB per π phase shift, while the optical response remains stable over a four-month observation period. Automated trimming is demonstrated on a photonic crossbar array, reducing the average channel output variation from 78.5% to 5.9%. These results establish a practical route towards automated, ultra-low-loss post-fabrication trimming for large-scale cladded PICs.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-09T09:08:33Z</published>
+    <arxiv:comment>14 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Zhongyu Tang</name>
+    </author>
+    <author>
+      <name>Shabnam Taheriniya</name>
+    </author>
+    <author>
+      <name>Seongmin Jo</name>
+    </author>
+    <author>
+      <name>Xinyu Ma</name>
+    </author>
+    <author>
+      <name>Akhil Varri</name>
+    </author>
+    <author>
+      <name>Anna P. Ovvyan</name>
+    </author>
+    <author>
+      <name>Vincent Spreter</name>
+    </author>
+    <author>
+      <name>Liam McRae</name>
+    </author>
+    <author>
+      <name>Xiansong Meng</name>
+    </author>
+    <author>
+      <name>Wolfram H. P. Pernice</name>
+    </author>
+    <author>
+      <name>Rongyang Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.04197v1</id>
+    <title>Spatial-Wavelength Multiplexing Reliable Photonic Integrated General-Purpose Analog Computing System</title>
+    <updated>2025-05-07T07:52:49Z</updated>
+    <link href="https://arxiv.org/abs/2505.04197v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.04197v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the "post-Moore era", the growing challenges in traditional computing have driven renewed interest in analog computing, leading to various proposals for the development of general-purpose analog computing (GPAC) systems. In this work, we present a GPAC prototype featuring a silicon photonic chip designed for fully optical analog computation. This system leverages on-chip multi-channel architectures to enable parallel processing and utilizes wavelength-division multiplexing to significantly enhance computational capacity. In addition, we have developed an error-correction algorithm to monitor processing operations in real time, ensuring the reliability of computational results. Experimentally, we demonstrate the system's capability to solve ordinary differential equations and its applications in communications, microwave photonics, and image processing. The chip's energy efficiency is evaluated to reach up to 227 tera-operations per second per watt. Through this research, we provide a novel hardware framework and innovative directions for analog photonic computing.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-07T07:52:49Z</published>
+    <arxiv:comment>29pages, 10 figures, research article</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Tao Zhu</name>
+    </author>
+    <author>
+      <name>Bowen Zhu</name>
+    </author>
+    <author>
+      <name>Shicheng Zhang</name>
+    </author>
+    <author>
+      <name>Keren Li</name>
+    </author>
+    <author>
+      <name>Xianchen Wu</name>
+    </author>
+    <author>
+      <name>Yazhi Pi</name>
+    </author>
+    <author>
+      <name>Jie Yan</name>
+    </author>
+    <author>
+      <name>Daigao Chen</name>
+    </author>
+    <author>
+      <name>Bingli Guo</name>
+    </author>
+    <author>
+      <name>Xi Xiao</name>
+    </author>
+    <author>
+      <name>Lei Wang</name>
+    </author>
+    <author>
+      <name>Xiaochuan Xu</name>
+    </author>
+    <author>
+      <name>Xuwei Xue</name>
+    </author>
+    <author>
+      <name>Shanguo Huang</name>
+    </author>
+    <author>
+      <name>Zizheng Cao</name>
+    </author>
+    <author>
+      <name>Shaohua Yu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.11514v1</id>
+    <title>Liquid water based optoelectronic computing chip</title>
+    <updated>2024-01-21T15:00:24Z</updated>
+    <link href="https://arxiv.org/abs/2401.11514v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.11514v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Solid-state electronics have revolutionized modern society due to their exceptional computational capabilities. However, the power consumption of chips rises dramatically with increasing integration levels as post-treatment of individual computing unit cost. Here, we introduce a water computing chip with exceptionally low power consumption based on graphene/water/semiconductor photodetectors, which relies on a unique exponential decay of water molecule polarization transfer function (PTF) along the signal transmission direction. Through a designed Ising model to picture the dynamic polarization and depolarization process of water molecules between graphene and silicon, we illustrate a longitude decay PTF which guarantees low energy consumption for the pulse current output. Furthermore, the lateral decay PTF is verified by the realization of linearly superimposed currents in the diameter of centimeter scale based on 3*3 water photodetector array. The molecular dynamic simulations reveal the timescale of 25 femtosecond (fs) for one flip of single water molecule. Subsequently, the single logical operation only needs an ideal energy consumption up to attojoule (10-18 J). The decay of lateral PTF at the centimeter scale ensures the ability to fabricate water computing chips containing a large number of photodetector arrays under micro/nano fabrication technology, which mimics the numerous neural cells inside hippocampus. As a proof of concept, we show the capability for Multiply-Accumulate (MAC) computations using an 8*8 water computing chip by successfully identifying the ASCII code of ZJU. The water computing chips utilize naturally-sourced water and straightforward manufacturing techniques, which hold great potential in creating a chip similar with human brain.</summary>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-21T15:00:24Z</published>
+    <arxiv:primary_category term="physics.comp-ph"/>
+    <author>
+      <name>Minhui Yang</name>
+    </author>
+    <author>
+      <name>Kangchen Xiong</name>
+    </author>
+    <author>
+      <name>Xin Chen</name>
+    </author>
+    <author>
+      <name>Huikai Zhong</name>
+    </author>
+    <author>
+      <name>Shisheng Lin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.01756v1</id>
+    <title>Atomic-level Characterisation of Quantum Computer Arrays by Machine Learning</title>
+    <updated>2019-04-03T04:08:23Z</updated>
+    <link href="https://arxiv.org/abs/1904.01756v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.01756v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Atomic level qubits in silicon are attractive candidates for large-scale quantum computing, however, their quantum properties and controllability are sensitive to details such as the number of donor atoms comprising a qubit and their precise location. This work combines machine learning techniques with million-atom simulations of scanning-tunnelling-microscope (STM) images of dopants to formulate a theoretical framework capable of determining the number of dopants at a particular qubit location and their positions with exact lattice-site precision. A convolutional neural network was trained on 100,000 simulated STM images, acquiring a characterisation fidelity (number and absolute donor positions) of above 98\% over a set of 17,600 test images including planar and blurring noise. The method established here will enable a high-precision post-fabrication characterisation of dopant qubits in silicon, with high-throughput potentially alleviating the requirements on the level of resource required for quantum-based characterisation, which may be otherwise a challenge in the context of large qubit arrays for universal quantum computing.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-03T04:08:23Z</published>
+    <arxiv:comment>8 pages, 4 figures and a supplementary information document</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>npj Computational Materials 6, 19, 2020</arxiv:journal_ref>
+    <author>
+      <name>Muhammad Usman</name>
+    </author>
+    <author>
+      <name>Yi Z. Wong</name>
+    </author>
+    <author>
+      <name>Charles D. Hill</name>
+    </author>
+    <author>
+      <name>Lloyd C. L. Hollenberg</name>
+    </author>
+    <arxiv:doi>10.1038/s41524-020-0282-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41524-020-0282-0" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.11120v2</id>
+    <title>Enhanced cavity coupling to silicon monovacancies in 4-H Silicon Carbide using below bandgap laser irradiation and low temperature thermal annealing</title>
+    <updated>2020-09-24T01:53:03Z</updated>
+    <link href="https://arxiv.org/abs/2008.11120v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.11120v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The negatively charged silicon monovacancy $V_{Si}^-$ in 4H-silicon carbide (SiC) is a spin-active point defect that has the potential to act as a qubit or quantum memory in solid-state quantum computation applications. Photonic crystal cavities (PCCs) can augment the optical emission of the $V_{Si}^-$, yet fine-tuning the defect-cavity interaction remains challenging. We report on two post-fabrication processes that result in enhancement of the $V_1^{'}$ optical emission from our 1-dimensional PCCs, indicating improved coupling between the ensemble of silicon vacancies and the PCC. One process involves below bandgap illumination at 785 nm and 532 nm wavelengths and above bandgap illumination at 325 nm, carried out at times ranging from a few minutes to several hours. The other process is thermal annealing at $100^o C$, carried out over 20 minutes. Every process except above bandgap irradiation improves the defect-cavity coupling, manifested in augmented Purcell factor enhancement of the $V_1^{'}$ zero phonon line at 77K. The below bandgap laser process is attributed to a modification of charge states, changing the relative ratio of $V_{Si}^0$ (dark state) to $V_{Si}^-$ (bright state), while the thermal annealing process may be explained by diffusion of carbon interstitials, $C_i$, that subsequently recombine with other defects to create additional $V_{Si}^-$s. Above bandgap radiation is proposed to initially convert $V_{Si}^{0}$ to $V_{Si}^-$, but also may lead to diffusion of $V_{Si}^-$ away from the probe area, resulting in an irreversible reduction of the optical signal. Observations of the PCC spectra allow insights into defect modifications and interactions within a controlled, designated volume and indicate pathways to improve defect-cavity interactions.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-25T15:53:57Z</published>
+    <arxiv:comment>21 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Mena N. Gadalla</name>
+    </author>
+    <author>
+      <name>Andrew S. Greenspon</name>
+    </author>
+    <author>
+      <name>Rodrick Kuate Defo</name>
+    </author>
+    <author>
+      <name>Xingyu Zhang</name>
+    </author>
+    <author>
+      <name>Evelyn L. Hu</name>
+    </author>
+    <arxiv:doi>10.1073/pnas.2021768118</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1073/pnas.2021768118" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.19750v1</id>
+    <title>IMAGINE: An 8-to-1b 22nm FD-SOI Compute-In-Memory CNN Accelerator With an End-to-End Analog Charge-Based 0.15-8POPS/W Macro Featuring Distribution-Aware Data Reshaping</title>
+    <updated>2024-12-27T17:18:15Z</updated>
+    <link href="https://arxiv.org/abs/2412.19750v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.19750v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Charge-domain compute-in-memory (CIM) SRAMs have recently become an enticing compromise between computing efficiency and accuracy to process sub-8b convolutional neural networks (CNNs) at the edge. Yet, they commonly make use of a fixed dot-product (DP) voltage swing, which leads to a loss in effective ADC bits due to data-dependent clipping or truncation effects that waste precious conversion energy and computing accuracy. To overcome this, we present IMAGINE, a workload-adaptive 1-to-8b CIM-CNN accelerator in 22nm FD-SOI. It introduces a 1152x256 end-to-end charge-based macro with a multi-bit DP based on an input-serial, weight-parallel accumulation that avoids power-hungry DACs. An adaptive swing is achieved by combining a channel-wise DP array split with a linear in-ADC implementation of analog batch-normalization (ABN), obtaining a distribution-aware data reshaping. Critical design constraints are relaxed by including the post-silicon equivalent noise within a CIM-aware CNN training framework. Measurement results showcase an 8b system-level energy efficiency of 40TOPS/W at 0.3/0.6V, with competitive accuracies on MNIST and CIFAR-10. Moreover, the peak energy and area efficiencies of the 187kB/mm2 macro respectively reach up to 0.15-8POPS/W and 2.6-154TOPS/mm2, scaling with the 8-to-1b computing precision. These results exceed previous charge-based designs by 3-to-5x while being the first work to provide linear in-memory rescaling.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-27T17:18:15Z</published>
+    <arxiv:comment>14 pages, 23 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Adrian Kneip</name>
+    </author>
+    <author>
+      <name>Martin Lefebvre</name>
+    </author>
+    <author>
+      <name>Pol Maistriaux</name>
+    </author>
+    <author>
+      <name>David Bol</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.18633v2</id>
+    <title>Lossless, Non-Volatile Post-Fabrication Trimming of PICs via On-Chip High-Temperature Annealing of Undercut Waveguides</title>
+    <updated>2025-06-24T10:08:27Z</updated>
+    <link href="https://arxiv.org/abs/2506.18633v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.18633v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Limited by equipment precision, manufacturing deviations in waveguide width, etch depth, and layer thickness inevitably occur in photonic integrated circuits (PICs). These variations cause initial phase errors, compromising the reliability of phase-sensitive devices such as Mach-Zehnder Interferometers (MZI) and microring resonators. To overcome this, we report a nonvolatile, near-lossless post-trimming method utilizing sufficient high-temperature thermal treatment for undercut waveguides, reported here for the first time to the best of our knowledge. This CMOS-compatible approach requires no additional processes or equipment, enables simple electrical heating for trimming, and retains long-term stability after high-temperature removal, ensuring high energy efficiency. Transmission electron microscopy indicates that high-temperature thermal treatment induces irreversible lattice expansion in silicon waveguides, leading to a reduction in the real refractive index and enabling compensation for process errors. Experimental results using MZIs confirm a permanent refractive index reduction of 0.0173 and high-resolution tuning up to 5.25 bits, effective across a broadband spectrum and stable for over 218 days after final trimming. Furthermore, 15 MZIs on a single wafer are precisely calibrated to BAR, CROSS, or orthogonal states, demonstrating the method universality. This practical and scalable technique enables reliable post-fabrication trimming for next-generation low-cost, energy-efficient PIC applications such as optical switches and optical computing.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-23T13:36:52Z</published>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Yating Wu</name>
+    </author>
+    <author>
+      <name>Haozhe Sun</name>
+    </author>
+    <author>
+      <name>Bo Xiong</name>
+    </author>
+    <author>
+      <name>Yalong Yv</name>
+    </author>
+    <author>
+      <name>Jiale Zhang</name>
+    </author>
+    <author>
+      <name>Zhaojie Zheng</name>
+    </author>
+    <author>
+      <name>Wei Ma</name>
+    </author>
+    <author>
+      <name>Tao Chu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.08874v1</id>
+    <title>Impact of gate-voltage noise on silicon spin-qubit variational quantum eigensolvers</title>
+    <updated>2026-06-07T23:00:55Z</updated>
+    <link href="https://arxiv.org/abs/2606.08874v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.08874v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum computers offer a route to outperform classical methods in tasks such as molecular simulation, motivating hybrid algorithms like the Variational Quantum Eigensolver (VQE) for near-term devices. Silicon spin qubits are a promising platform for scalable quantum computation, but their performance is limited by hardware imperfections -- most notably charge-noise-induced potential fluctuations and static miscalibration of gate-electrode voltages -- which degrade quantum gate fidelities and, ultimately, algorithmic accuracy. Here we develop a hardware-algorithm co-simulation framework for silicon quantum-dot processors that links 3D electrostatics to effective $g$-factors and exchange couplings, and propagates voltage-level noise through realistic control pulses. Using VQE for $\mathrm{H}_2$ ground-state energy estimation as a circuit-level testbed, we study both static scaling/offset errors on the gate-electrode voltages and stochastic fluctuations modeled as random-telegraph noise with tunable amplitudes and switching times. At the gate level, we show that exchange-based two-qubit gates are roughly an order of magnitude more sensitive to these types of noise than ESR-driven single-qubit rotations. Quantum process tomography and Kraus-operator analysis further distinguish coherent and incoherent contributions and quantify the fraction of error that is, in principle, correctable by a compensating unitary. Embedding these noise models into the VQE circuit, we identify regimes of miscalibration strength and noise switching time compatible with chemically accurate energy estimates, and discuss how statistical post-processing based on the full distribution of noisy energy estimates could further improve accuracy.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-07T23:00:55Z</published>
+    <arxiv:comment>27 pages, 17 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Xinning Wang</name>
+    </author>
+    <author>
+      <name>Bohdan Khromets</name>
+    </author>
+    <author>
+      <name>Zachery Merino</name>
+    </author>
+    <author>
+      <name>Jonathan Baugh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.03889v1</id>
+    <title>Loss and decoherence in superconducting circuits on silicon: Insights from electron spin resonance</title>
+    <updated>2024-02-06T10:53:59Z</updated>
+    <link href="https://arxiv.org/abs/2402.03889v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.03889v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Solid-state devices used for quantum computation and quantum sensing applications are adversely affected by loss and noise caused by spurious, charged two-level systems (TLS) and stray paramagnetic spins. These two sources of noise are interconnected, exacerbating the impact on circuit performance. We use an on-chip electron spin resonance (ESR) technique, with niobium nitride (NbN) superconducting resonators, to study surface spins on silicon and the effect of post-fabrication surface treatments. We identify two distinct spin species that are characterized by different spin-relaxation times and respond selectively to various surface treatments (annealing and hydrofluoric acid). Only one of the two spin species has a significant impact on the TLS-limited resonator quality factor at low-power (near single-photon) excitation. We observe a 3-to-5-fold reduction in the total density of spins after surface treatments, and demonstrate the efficacy of ESR spectroscopy in developing strategies to mitigate loss and decoherence in quantum systems.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-06T10:53:59Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Aditya Jayaraman</name>
+    </author>
+    <author>
+      <name>Andrey V. Danilov</name>
+    </author>
+    <author>
+      <name>Jonas Bylander</name>
+    </author>
+    <author>
+      <name>Sergey E. Kubatkin</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevApplied.22.014030</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevApplied.22.014030" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.16783v1</id>
+    <title>Quantum teleportation of an elemental silicon nanophotonic CNOT gate</title>
+    <updated>2025-07-22T17:29:49Z</updated>
+    <link href="https://arxiv.org/abs/2507.16783v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.16783v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large-scale quantum computers possess the capacity to effectively tackle practical problems that can be insurmountable for classical computers. The main challenge in building these quantum computers is to realize scalable modules for remote qubits and entanglement. By assembling small, specialized parts into a larger architecture, the modular approach mitigates complexity and uncertainty. Such a distributed architecture requires non-local quantum gate operations between remote qubits. An essential method for implementing such operations, known as quantum gate teleportation, requires only local operations, classical communication, and shared entanglement. Till today, the quantum gate teleportation using a photonic chip has remained elusive. Here we experimentally demonstrate the quantum teleportation of an on-chip controlled-NOT (CNOT) gate, assisted with the scalable silicon chip platform, high-fidelity local quantum logic gates, linear optical components, post-selected entanglement, and coincidence measurements from photonic qubits. First, we measure and characterize our teleported chip-scale CNOT gate with an average truth table fidelity of 93.1 +- 0.3%. Second, for different input polarization states, we obtain an average quantum state fidelity of 87.0 +- 2.2% with our teleported on-chip CNOT gate. Third, we use our non-local CNOT gate for remote entanglement creation of four Bell states, with an average quantum state fidelity of 86.2 +- 0.8%. Fourthly, we fully characterize our teleported on-chip CNOT gate with a quantum process fidelity 83.1 +- 2.0%, and an average non-local CNOT gate fidelity of 86.5 +- 2.2%. Our teleported photonic on-chip quantum logic gate could be extended both to multiple qubits and chip-scale modules towards fault-tolerant and large-scale distributed quantum computation.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-22T17:29:49Z</published>
+    <arxiv:comment>20 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Optica Quantum 3, 381 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Kai-Chi Chang</name>
+    </author>
+    <author>
+      <name>Xiang Cheng</name>
+    </author>
+    <author>
+      <name>Felix Ribuot-Hirsch</name>
+    </author>
+    <author>
+      <name>Murat Can Sarihan</name>
+    </author>
+    <author>
+      <name>Yujie Chen</name>
+    </author>
+    <author>
+      <name>Jaime Gonzalo Flor Flores</name>
+    </author>
+    <author>
+      <name>Mingbin Yu</name>
+    </author>
+    <author>
+      <name>Patrick Guo-Qiang Lo</name>
+    </author>
+    <author>
+      <name>Dim-Lee Kwong</name>
+    </author>
+    <author>
+      <name>Chee Wei Wong</name>
+    </author>
+    <arxiv:doi>10.1364/OPTICAQ.554577</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1364/OPTICAQ.554577" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.02294v5</id>
+    <title>Coupling between thermochemical contributions of subvalence correlation and of higher-order post-CCSD(T) correlation effects -- a step toward `W5 theory'</title>
+    <updated>2026-04-15T14:10:09Z</updated>
+    <link href="https://arxiv.org/abs/2601.02294v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.02294v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the thermochemical impact of post-CCSD(T) contributions to the total atomization energy (TAE, the sum of all bond energies) of first- and second-row molecules, and specifically their coupling with the subvalence correlation contribution. In particular, we find large contributions from (Q) when there are several neighboring second-row atoms. Otherwise, both higher-order triples $T_3$--(T) and connected quadruples (Q) are important in systems with strong static correlation. Reoptimization of the reference geometry for core-valence correlation increases the calculated TAE across the board, most pronouncedly so for second-row compounds with neighboring second-row atoms. %just slightly increases the calculated TAE for all species, but more pronouncedly so if strong static correlation is present, as well as for second-row compounds, again especially with neighboring second-row atoms. We present a first proposal for a `W5 theory' protocol and compare computed TAEs for the W4-08 benchmark with prior reference values. For some key second-row species, the new values represent nontrivial revisions. Our predicted TAE$_0$ values (TAE at 0 K) agree well with the ATcT (active thermochemical tables) values, including for the very recent expansion of the ATcT network to boron, silicon, and sulfur compounds.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-05T17:30:59Z</published>
+    <arxiv:comment>J. Phys. Chem. A (John F. Stanton memorial issue), Open Access CC:BY</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <arxiv:journal_ref>J. Phys. Chem. A 130, 2943-2955 (2026)</arxiv:journal_ref>
+    <author>
+      <name>Aditya Barman</name>
+    </author>
+    <author>
+      <name>Gregory H. Jones</name>
+    </author>
+    <author>
+      <name>Kaila E. Weflen</name>
+    </author>
+    <author>
+      <name>Margarita Shepelenko</name>
+    </author>
+    <author>
+      <name>Jan M. L. Martin</name>
+    </author>
+    <arxiv:doi>10.1021/acs.jpca.6c00467</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/acs.jpca.6c00467" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.09389v3</id>
+    <title>Massive Data-Centric Parallelism in the Chiplet Era</title>
+    <updated>2023-08-11T07:57:37Z</updated>
+    <link href="https://arxiv.org/abs/2304.09389v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.09389v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent works have introduced task-based parallelization schemes to accelerate graph search and sparse data-structure traversal, where some solutions scale up to thousands of processing units (PUs) on a single chip. However parallelizing these memory-intensive workloads across millions of cores requires a scalable communication scheme as well as designing a cost-efficient computing node that makes multi-node systems practical, which have not been addressed in previous research. To address these challenges, we propose a task-oriented scalable chiplet architecture for distributed execution (Tascade), a multi-node system design that we evaluate with up to 256 distributed chips -- over a million PUs. We introduce an execution model that scales to this level via proxy regions and selective cascading, which reduce overall communication and improve load balancing. In addition, package-time reconfiguration of our chiplet-based design enables creating chip products that optimized post-silicon for different target metrics, such as time-to-solution, energy, or cost. We evaluate six applications and four datasets, with several configurations and memory technologies to provide a detailed analysis of the performance, power, and cost of data-centric execution at a massive scale. Our parallelization of Breadth-First-Search with RMAT-26 across a million PUs -- the largest of the literature -- reaches 3021 GTEPS.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-19T02:58:08Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Marcelo Orenes-Vera</name>
+    </author>
+    <author>
+      <name>Esin Tureci</name>
+    </author>
+    <author>
+      <name>David Wentzlaff</name>
+    </author>
+    <author>
+      <name>Margaret Martonosi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.05334v3</id>
+    <title>Getting High: High Fidelity Simulation of High Granularity Calorimeters with High Speed</title>
+    <updated>2021-02-03T16:57:19Z</updated>
+    <link href="https://arxiv.org/abs/2005.05334v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.05334v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Accurate simulation of physical processes is crucial for the success of modern particle physics. However, simulating the development and interaction of particle showers with calorimeter detectors is a time consuming process and drives the computing needs of large experiments at the LHC and future colliders. Recently, generative machine learning models based on deep neural networks have shown promise in speeding up this task by several orders of magnitude. We investigate the use of a new architecture -- the Bounded Information Bottleneck Autoencoder -- for modelling electromagnetic showers in the central region of the Silicon-Tungsten calorimeter of the proposed International Large Detector. Combined with a novel second post-processing network, this approach achieves an accurate simulation of differential distributions including for the first time the shape of the minimum-ionizing-particle peak compared to a full GEANT4 simulation for a high-granularity calorimeter with 27k simulated channels. The results are validated by comparing to established architectures. Our results further strengthen the case of using generative networks for fast simulation and demonstrate that physically relevant differential distributions can be described with high accuracy.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-11T18:00:02Z</published>
+    <arxiv:comment>17 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <arxiv:journal_ref>Computing and Software for Big Science 5, 13 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Erik Buhmann</name>
+    </author>
+    <author>
+      <name>Sascha Diefenbacher</name>
+    </author>
+    <author>
+      <name>Engin Eren</name>
+    </author>
+    <author>
+      <name>Frank Gaede</name>
+    </author>
+    <author>
+      <name>Gregor Kasieczka</name>
+    </author>
+    <author>
+      <name>Anatolii Korol</name>
+    </author>
+    <author>
+      <name>Katja Krüger</name>
+    </author>
+    <arxiv:doi>10.1007/s41781-021-00056-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s41781-021-00056-0" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.04878v1</id>
+    <title>A Tracer Method for Computing Type Ia Supernova Yields: Burning Model Calibration, Reconstruction of Thickened Flames, and Verification for Planar Detonations</title>
+    <updated>2016-05-16T19:29:43Z</updated>
+    <link href="https://arxiv.org/abs/1605.04878v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.04878v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We refine our previously introduced parameterized model for explosive carbon-oxygen fusion during thermonuclear supernovae (SN Ia) by adding corrections to post-processing of recorded Lagrangian fluid element histories to obtain more accurate isotopic yields. Deflagration and detonation products are verified for propagation in a uniform density medium. A new method is introduced for reconstructing the temperature-density history within the artificially thick model deflagration front. We obtain better than 5\% consistency between the electron capture computed by the burning model and yields from post-processing. For detonations, we compare to a benchmark calculation of the structure of driven steady-state planar detonations performed with a large nuclear reaction network and error-controlled integration. We verify that, for steady-state planar detonations down to a density of 5x10^6 g/cc, our post processing matches the major abundances in the benchmark solution typically to better than 10% for times greater than 0.01 s after the shock front passage. As a test case to demonstrate the method, presented here with post-processing for the first time, we perform a two dimensional simulation of a SN Ia in the Chandrasekhar-mass deflagration-detonation transition (DDT) scenario. We find that reconstruction of deflagration tracks leads to slightly more complete silicon burning than without reconstruction. The resulting abundance structure of the ejecta is consistent with inferences from spectroscopic studies of observed SNe Ia. We confirm the absence of a central region of stable Fe-group material for the multi-dimensional DDT scenario. Detailed isotopic yields are tabulated and only change modestly when using deflagration reconstruction.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-16T19:29:43Z</published>
+    <arxiv:comment>28 pages, 16 figures, Accepted to the Astrophysical Journal Supplemental</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <author>
+      <name>Dean M. Townsley</name>
+      <arxiv:affiliation>Alabama</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Broxton J. Miles</name>
+      <arxiv:affiliation>Alabama</arxiv:affiliation>
+    </author>
+    <author>
+      <name>F. X. Timmes</name>
+      <arxiv:affiliation>ASU, JINA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alan C. Calder</name>
+      <arxiv:affiliation>Stonybrook, IACS</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Edward F. Brown</name>
+      <arxiv:affiliation>Michigan State, JINA</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.3847/0067-0049/225/1/3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/0067-0049/225/1/3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.15742v2</id>
+    <title>SHARe-KAN: Post-Training Vector Quantization for Cache-Resident KAN Inference</title>
+    <updated>2026-04-14T20:07:29Z</updated>
+    <link href="https://arxiv.org/abs/2512.15742v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.15742v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Pre-trained Vision Kolmogorov-Arnold Networks (KANs) store a dense B-spline grid on every edge, inflating prediction-head parameter counts by more than 140X relative to a comparable MLP and pushing inference into a memory-bound regime on edge accelerators. Standard magnitude pruning fails on these pre-trained models: zero-shot sparsity collapses accuracy, and restoring it requires an iterative fine-tuning loop that is impractical in deployment settings. We present SHARe-KAN, a post-training compiler that compresses spline coefficients via a Gain-Shape-Bias decomposition with a layer-shared codebook, paired with LUTHAM, an ExecuTorch runtime that maps the codebook into on-chip L2. On PASCAL VOC detection with a ResNet-50 backbone, SHARe-KAN Int8 reaches 9.3X storage compression over the Dense KAN baseline (6.32 MB vs. 58.67 MB prediction head) at a 2.0 point in-domain accuracy cost (80.22% vs. 82.22% mAP), with no retraining. Zero-shot transfer to COCO retains 88.9% of the Dense KAN mAP; most of this gap comes from the VQ clustering step itself, and further quantization from FP32 to Int8 costs only 1.3 retention points. The value of the approach compounds at scale: at 50 task heads, Dense KAN prediction-head storage reaches 2.9 GB while SHARe-KAN Int8 requires 211 MB, a 13.9X reduction that brings multi-expert KAN deployment within the memory budgets of contemporary edge silicon.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-10T04:10:13Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jeff Smith</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.22425v1</id>
+    <title>ArchAgent: Agentic AI-driven Computer Architecture Discovery</title>
+    <updated>2026-02-25T21:36:16Z</updated>
+    <link href="https://arxiv.org/abs/2602.22425v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.22425v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agile hardware design flows are a critically needed force multiplier to meet the exploding demand for compute. Recently, agentic generative AI systems have demonstrated significant advances in algorithm design, improving code efficiency, and enabling discovery across scientific domains.
+  Bridging these worlds, we present ArchAgent, an automated computer architecture discovery system built on AlphaEvolve. We show ArchAgent's ability to automatically design/implement state-of-the-art (SoTA) cache replacement policies (architecting new mechanisms/logic, not only changing parameters), broadly within the confines of an established cache replacement policy design competition.
+  In two days without human intervention, ArchAgent generated a policy achieving a 5.3% IPC speedup improvement over the prior SoTA on public multi-core Google Workload Traces. On the heavily-explored single-core SPEC06 workloads, it generated a policy in just 18 days showing a 0.9% IPC speedup improvement over the existing SoTA (a similar "winning margin" as reported by the existing SoTA). ArchAgent achieved these gains 3-5x faster than prior human-developed SoTA policies.
+  Agentic flows also enable "post-silicon hyperspecialization" where agents tune runtime-configurable parameters exposed in hardware policies to further align the policies with a specific workload (mix). Exploiting this, we demonstrate a 2.4% IPC speedup improvement over prior SoTA on SPEC06 workloads.
+  Finally, we outline broader implications for computer architecture research in the era of agentic AI. For example, we demonstrate the phenomenon of "simulator escapes", where the agentic AI flow discovered and exploited a loophole in a popular microarchitectural simulator - a consequence of the fact that these research tools were designed for a (now past) world where they were exclusively operated by humans acting in good-faith.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-25T21:36:16Z</published>
+    <arxiv:comment>13 pages, 5 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Raghav Gupta</name>
+    </author>
+    <author>
+      <name>Akanksha Jain</name>
+    </author>
+    <author>
+      <name>Abraham Gonzalez</name>
+    </author>
+    <author>
+      <name>Alexander Novikov</name>
+    </author>
+    <author>
+      <name>Po-Sen Huang</name>
+    </author>
+    <author>
+      <name>Matej Balog</name>
+    </author>
+    <author>
+      <name>Marvin Eisenberger</name>
+    </author>
+    <author>
+      <name>Sergey Shirobokov</name>
+    </author>
+    <author>
+      <name>Ngân Vũ</name>
+    </author>
+    <author>
+      <name>Martin Dixon</name>
+    </author>
+    <author>
+      <name>Borivoje Nikolić</name>
+    </author>
+    <author>
+      <name>Parthasarathy Ranganathan</name>
+    </author>
+    <author>
+      <name>Sagar Karandikar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.10368v1</id>
+    <title>A 334$μ$W 0.158mm$^2$ ASIC for Post-Quantum Key-Encapsulation Mechanism Saber with Low-latency Striding Toom-Cook Multiplication Authors Version</title>
+    <updated>2023-05-17T16:51:29Z</updated>
+    <link href="https://arxiv.org/abs/2305.10368v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.10368v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The hard mathematical problems that assure the security of our current public-key cryptography (RSA, ECC) are broken if and when a quantum computer appears rendering them ineffective for use in the quantum era. Lattice based cryptography is a novel approach to public key cryptography, of which the mathematical investigation (so far) resists attacks from quantum computers. By choosing a module learning with errors (MLWE) algorithm as the next standard, National Institute of Standard &amp; Technology (NIST) follows this approach. The multiplication of polynomials is the central bottleneck in the computation of lattice based cryptography. Because public key cryptography is mostly used to establish common secret keys, focus is on compact area, power and energy budget and to a lesser extent on throughput or latency. While most other work focuses on optimizing number theoretic transform (NTT) based multiplications, in this paper we highly optimize a Toom-Cook based multiplier. We demonstrate that a memory-efficient striding Toom-Cook with lazy interpolation, results in a highly compact, low power implementation, which on top enables a very regular memory access scheme. To demonstrate the efficiency, we integrate this multiplier into a Saber post-quantum accelerator, one of the four NIST finalists. Algorithmic innovation to reduce active memory, timely clock gating and shift-add multiplier has helped to achieve 38% less power than state-of-the art PQC core, 4x less memory, 36.8% reduction in multiplier energy and 118x reduction in active power with respect to state-of-the-art Saber accelerator (not silicon verified). This accelerator consumes 0.158mm2 active area which is lowest reported till date despite process disadvantages of the state-of-the-art designs.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-17T16:51:29Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Archisman Ghosh</name>
+    </author>
+    <author>
+      <name>Jose Maria Bermudo Mera</name>
+    </author>
+    <author>
+      <name>Angshuman Karmakar</name>
+    </author>
+    <author>
+      <name>Debayan Das</name>
+    </author>
+    <author>
+      <name>Santosh Ghosh</name>
+    </author>
+    <author>
+      <name>Ingrid Verbauwhede</name>
+    </author>
+    <author>
+      <name>Shreyas Sen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.03055v1</id>
+    <title>Simulation of Atomic Layer Deposition with a Quantum Computer</title>
+    <updated>2025-04-03T22:01:00Z</updated>
+    <link href="https://arxiv.org/abs/2504.03055v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.03055v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we present the study of an atomic layer deposition (ALD) of zirconium by means of a quantum computation on an emulator representing the features of an architecture based on qubits implemented on carbon nanotubes. ALD process control is key in several technological applications such as spintronics, catalysis and renewable energy storage. We first derive a large ab-initio model of the precursor molecule approaching the infinite hydroxylated silicon (100) surface. In particular, we optimize geometry in three configurations: reactants, transition state and products. Subsequently, we derive an effective small cluster model for each state. Atomic valence active space (AVAS) transformation is then performed on these small clusters, leading to an effective qubit Hamiltonian, which is solved using the Variational Quantum Eigensolver (VQE) algorithm. We study the convergence of the reaction activation barrier with respect to the active space size and benchmark quantum calculations on a noiseless emulator and on an emulator representing a carbon nanotube qubit architecture, including an appropriate noise model and post-selection error mitigation. These calculations reveal an excellent agreement between the two emulation modes. Our VQE calculations provide the multi-configurational corrections to the single determinant DFT and HF states and pave the way for the routine quantum calculations of ALD reactions.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-03T22:01:00Z</published>
+    <arxiv:comment>11 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Evgeny Plekhanov</name>
+    </author>
+    <author>
+      <name>Georgia Prokopiou</name>
+    </author>
+    <author>
+      <name>Michal Krompiec</name>
+    </author>
+    <author>
+      <name>Viktor Radovic</name>
+    </author>
+    <author>
+      <name>Pierre Desjardins</name>
+    </author>
+    <author>
+      <name>Pluton Pullumbi</name>
+    </author>
+    <author>
+      <name>David Muñoz Ramo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.01588v1</id>
+    <title>Workshops on Extreme Scale Design Automation (ESDA) Challenges and Opportunities for 2025 and Beyond</title>
+    <updated>2020-05-04T15:58:09Z</updated>
+    <link href="https://arxiv.org/abs/2005.01588v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.01588v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Integrated circuits and electronic systems, as well as design technologies, are evolving at a great rate -- both quantitatively and qualitatively. Major developments include new interconnects and switching devices with atomic-scale uncertainty, the depth and scale of on-chip integration, electronic system-level integration, the increasing significance of software, as well as more effective means of design entry, compilation, algorithmic optimization, numerical simulation, pre- and post-silicon design validation, and chip test. Application targets and key markets are also shifting substantially from desktop CPUs to mobile platforms to an Internet-of-Things infrastructure. In light of these changes in electronic design contexts and given EDA's significant dependence on such context, the EDA community must adapt to these changes and focus on the opportunities for research and commercial success. The CCC workshop series on Extreme-Scale Design Automation, organized with the support of ACM SIGDA, studied challenges faced by the EDA community as well as new and exciting opportunities currently available. This document represents a summary of the findings from these meetings.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-04T15:58:09Z</published>
+    <arxiv:comment>A Computing Community Consortium (CCC) workshop report, 32 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>R. Iris Bahar</name>
+    </author>
+    <author>
+      <name>Alex K. Jones</name>
+    </author>
+    <author>
+      <name>Srinivas Katkoori</name>
+    </author>
+    <author>
+      <name>Patrick H. Madden</name>
+    </author>
+    <author>
+      <name>Diana Marculescu</name>
+    </author>
+    <author>
+      <name>Igor L. Markov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1506.01072v2</id>
+    <title>Homogeneous Spiking Neuromorphic System for Real-World Pattern Recognition</title>
+    <updated>2015-06-08T20:32:49Z</updated>
+    <link href="https://arxiv.org/abs/1506.01072v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1506.01072v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A neuromorphic chip that combines CMOS analog spiking neurons and memristive synapses offers a promising solution to brain-inspired computing, as it can provide massive neural network parallelism and density. Previous hybrid analog CMOS-memristor approaches required extensive CMOS circuitry for training, and thus eliminated most of the density advantages gained by the adoption of memristor synapses. Further, they used different waveforms for pre and post-synaptic spikes that added undesirable circuit overhead. Here we describe a hardware architecture that can feature a large number of memristor synapses to learn real-world patterns. We present a versatile CMOS neuron that combines integrate-and-fire behavior, drives passive memristors and implements competitive learning in a compact circuit module, and enables in-situ plasticity in the memristor synapses. We demonstrate handwritten-digits recognition using the proposed architecture using transistor-level circuit simulations. As the described neuromorphic architecture is homogeneous, it realizes a fundamental building block for large-scale energy-efficient brain-inspired silicon chips that could lead to next-generation cognitive computing.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-06-02T21:35:51Z</published>
+    <arxiv:comment>This is a preprint of an article accepted for publication in IEEE Journal on Emerging and Selected Topics in Circuits and Systems, vol 5, no. 2, June 2015</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <arxiv:journal_ref>IEEE Journal on Emerging and Selected Topics in Circuits and Systems, vol 5, no. 2, June 2015</arxiv:journal_ref>
+    <author>
+      <name>Xinyu Wu</name>
+    </author>
+    <author>
+      <name>Vishal Saxena</name>
+    </author>
+    <author>
+      <name>Kehan Zhu</name>
+    </author>
+    <arxiv:doi>10.1109/JETCAS.2015.2433552</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/JETCAS.2015.2433552" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1812.00182v1</id>
+    <title>NTX: An Energy-efficient Streaming Accelerator for Floating-point Generalized Reduction Workloads in 22nm FD-SOI</title>
+    <updated>2018-12-01T09:58:51Z</updated>
+    <link href="https://arxiv.org/abs/1812.00182v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.00182v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Specialized coprocessors for Multiply-Accumulate (MAC) intensive workloads such as Deep Learning are becoming widespread in SoC platforms, from GPUs to mobile SoCs. In this paper we revisit NTX (an efficient accelerator developed for training Deep Neural Networks at scale) as a generalized MAC and reduction streaming engine. The architecture consists of a set of 32 bit floating-point streaming co-processors that are loosely coupled to a RISC-V core in charge of orchestrating data movement and computation. Post-layout results of a recent silicon implementation in 22 nm FD-SOI technology show the accelerator's capability to deliver up to 20 Gflop/s at 1.25 GHz and 168 mW. Based on these results we show that a version of NTX scaled down to 14 nm can achieve a 3x energy efficiency improvement over contemporary GPUs at 10.4x less silicon area, and a compute performance of 1.4 Tflop/s for training large state-of-the-art networks with full floating-point precision. An extended evaluation of MAC-intensive kernels shows that NTX can consistently achieve up to 87% of its peak performance across general reduction workloads beyond machine learning. Its modular architecture enables deployment at different scales ranging from high-performance GPU-class to low-power embedded scenarios.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-01T09:58:51Z</published>
+    <arxiv:comment>6 pages, invited paper at DATE 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Fabian Schuiki</name>
+    </author>
+    <author>
+      <name>Michael Schaffner</name>
+    </author>
+    <author>
+      <name>Luca Benini</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.08428v1</id>
+    <title>Bio-RV: Low-Power Resource-Efficient RISC-V Processor for Biomedical Applications</title>
+    <updated>2026-01-13T10:55:59Z</updated>
+    <link href="https://arxiv.org/abs/2601.08428v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.08428v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work presents Bio-RV, a compact and resource-efficient RISC-V processor intended for biomedical control applications, such as accelerator-based biomedical SoCs and implantable pacemaker systems. The proposed Bio-RV is a multi-cycle RV32I core that provides explicit execution control and external instruction loading with capabilities that enable controlled firmware deployment, ASIC bring-up, and post-silicon testing. In addition to coordinating accelerator configuration and data transmission in heterogeneous systems, Bio-RV is designed to function as a lightweight host controller, handling interfaces with pacing, sensing, electrogram (EGM), telemetry, and battery management modules. With 708 LUTs and 235 flip-flops on FPGA prototypes, Bio-RV, implemented in a 180 nm CMOS technology, operate at 50 MHz and feature a compact hardware footprint. According to post-layout results, the proposed architectural decisions align with minimal energy use. Ultimately, Bio-RV prioritises deterministic execution, minimal hardware complexity, and integration flexibility over peak computing speed to meet the demands of ultra-low-power, safety-critical biomedical systems.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-13T10:55:59Z</published>
+    <arxiv:comment>IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI-2026)</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Vijay Pratap Sharma</name>
+    </author>
+    <author>
+      <name>Annu Kumar</name>
+    </author>
+    <author>
+      <name>Mohd Faisal Khan</name>
+    </author>
+    <author>
+      <name>Mukul Lokhande</name>
+    </author>
+    <author>
+      <name>Santosh Kumar Vishvakarma</name>
+    </author>
+    <arxiv:doi>10.1109/IATMSI68868.2026.11465175</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/IATMSI68868.2026.11465175" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.02314v2</id>
+    <title>NeuroSim V1.5: Improved Software Backbone for Benchmarking Compute-in-Memory Accelerators with Device and Circuit-level Non-idealities</title>
+    <updated>2026-03-17T15:17:58Z</updated>
+    <link href="https://arxiv.org/abs/2505.02314v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.02314v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The exponential growth of artificial intelligence (AI) applications has exposed the inefficiency of conventional von Neumann architectures, where frequent data transfers between compute units and memory create significant energy and latency bottlenecks. Analog Computing-in-Memory (ACIM) addresses this challenge by performing multiply-accumulate (MAC) operations directly in the memory arrays, substantially reducing data movement. However, designing robust ACIM accelerators requires accurate modeling of device- and circuit-level non-idealities. In this work, we present NeuroSim V1.5, introducing several key advances: (1) seamless integration with TensorRT's post-training quantization flow enabling support for more neural networks including transformers, (2) a flexible noise injection methodology built on pre-characterized statistical models, making it straightforward to incorporate data from SPICE simulations or silicon measurements, (3) expanded device support including emerging non-volatile capacitive memories, and (4) up to 6.5x faster runtime than NeuroSim V1.4 through optimized behavioral simulation. The combination of these capabilities uniquely enables systematic design space exploration across both accuracy and hardware efficiency metrics. Through multiple case studies, we demonstrate optimization of critical design parameters while maintaining network accuracy. By bridging high-fidelity noise modeling with efficient simulation, NeuroSim V1.5 advances the design and validation of next-generation ACIM accelerators. All NeuroSim versions are available open-source at https://github.com/neurosim/NeuroSim.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-05T02:07:04Z</published>
+    <arxiv:comment>15 pages, 9 figures, 6 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>James Read</name>
+    </author>
+    <author>
+      <name>Ming-Yen Lee</name>
+    </author>
+    <author>
+      <name>Wei-Hsing Huang</name>
+    </author>
+    <author>
+      <name>Yuan-Chun Luo</name>
+    </author>
+    <author>
+      <name>Anni Lu</name>
+    </author>
+    <author>
+      <name>Shimeng Yu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.03243v1</id>
+    <title>Isotopically Selected Single Antimony Molecule Doping</title>
+    <updated>2025-09-03T11:59:50Z</updated>
+    <link href="https://arxiv.org/abs/2509.03243v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.03243v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A reliable route to the deterministic fabrication of impurity ion donors in silicon is required to advance quantum computing architectures based upon such systems. This paper reports the ability to dope isotopically-defined unique (${}^{121}\mathrm{Sb}{}^{123}\mathrm{Sb}$) clusters into silicon with measured detection efficiencies of 94% being obtained. Atomically resolved imaging of the doped clusters reveals a Sb-to-Sb separation of ~2 nm post-implantation, thus indicating suitability to form coupled qudit systems. The method used is fully compatible with integration into processing that includes pre-enrichment of the silicon host to &lt; 3ppm ${}^{29}\mathrm{Si}$ levels. As such, we present a potential pathway to the creation of scaled qudit arrays within silicon platforms for quantum computing.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-03T11:59:50Z</published>
+    <arxiv:comment>10 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Mason Adshead</name>
+    </author>
+    <author>
+      <name>Maddison Coke</name>
+    </author>
+    <author>
+      <name>Evan Tillotson</name>
+    </author>
+    <author>
+      <name>Kexue Li</name>
+    </author>
+    <author>
+      <name>Sam Sullivan-Allsop</name>
+    </author>
+    <author>
+      <name>Ricardo Egoavil</name>
+    </author>
+    <author>
+      <name>William Thornley</name>
+    </author>
+    <author>
+      <name>Yi Cui</name>
+    </author>
+    <author>
+      <name>Christopher M Gourlay</name>
+    </author>
+    <author>
+      <name>Katie L Moore</name>
+    </author>
+    <author>
+      <name>Sarah J Haigh</name>
+    </author>
+    <author>
+      <name>Richard J Curry</name>
+    </author>
+  </entry>
+</feed>

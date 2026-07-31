@@ -1,0 +1,494 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/QMks/lIbU/gVPEgPFsYTl+9hqqI</id>
+  <title>arXiv Query: search_query=all:"energy efficiency" AND all:"computing" AND all:trends&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-07-31T06:08:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22energy+efficiency%22+AND+(all:%22computing%22+AND+all:trends)&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>144</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2109.05472v2</id>
+    <title>Compute and Energy Consumption Trends in Deep Learning Inference</title>
+    <updated>2023-03-29T11:34:30Z</updated>
+    <link href="https://arxiv.org/abs/2109.05472v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.05472v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The progress of some AI paradigms such as deep learning is said to be linked to an exponential growth in the number of parameters. There are many studies corroborating these trends, but does this translate into an exponential increase in energy consumption? In order to answer this question we focus on inference costs rather than training costs, as the former account for most of the computing effort, solely because of the multiplicative factors. Also, apart from algorithmic innovations, we account for more specific and powerful hardware (leading to higher FLOPS) that is usually accompanied with important energy efficiency optimisations. We also move the focus from the first implementation of a breakthrough paper towards the consolidated version of the techniques one or two year later. Under this distinctive and comprehensive perspective, we study relevant models in the areas of computer vision and natural language processing: for a sustained increase in performance we see a much softer growth in energy consumption than previously anticipated. The only caveat is, yet again, the multiplicative factor, as future AI increases penetration and becomes more pervasive.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-12T09:40:18Z</published>
+    <arxiv:comment>For a revised version and its published version refer to: Desislavov, Radosvet, Fernando Martínez-Plumed, and José Hernández-Orallo. Trends in AI inference energy consumption: Beyond the performance-vs-parameter laws of deep learning. Sustainable Computing: Informatics and Systems, Volume 38, April 2023. (https://doi.org/10.1016/j.suscom.2023.100857)</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>"Trends in AI inference energy consumption: Beyond the performance-vs-parameter laws of deep learning" Sustainable Computing: Informatics and Systems (2023). Volume 38, April 2023, 100857</arxiv:journal_ref>
+    <author>
+      <name>Radosvet Desislavov</name>
+    </author>
+    <author>
+      <name>Fernando Martínez-Plumed</name>
+    </author>
+    <author>
+      <name>José Hernández-Orallo</name>
+    </author>
+    <arxiv:doi>10.1016/j.suscom.2023.100857</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.suscom.2023.100857" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.14141v1</id>
+    <title>Energy Efficient Deployment and Orchestration of Computing Resources at the Network Edge: a Survey on Algorithms, Trends and Open Challenges</title>
+    <updated>2022-09-28T14:42:59Z</updated>
+    <link href="https://arxiv.org/abs/2209.14141v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.14141v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Mobile networks are becoming energy hungry, and this trend is expected to continue due to a surge in communication and computation demand. Multi-access Edge Computing (MEC), will entail energy-consuming services and applications, with non-negligible impact in terms of ecological sustainability. In this paper, we provide a comprehensive review of existing approaches to make edge computing networks greener, including but not limited to the exploitation of renewable energy resources, and context-awareness. We hence provide an updated account of recent developments on MEC from an energetic sustainability perspective, addressing the initial deployment of computing resources, their dynamic (re)allocation, as well as distributed and federated learning designs. In doing so, we highlight the energy aspects of these algorithms, advocating the need for energy-sustainable edge computing systems that are aligned with Sustainable Development Goals (SDGs) and the Paris agreement. To the best of our knowledge, this is the first work providing a systematic literature review on the efficient deployment and management of energy harvesting MEC, with special focus on the deployment, provisioning, and scheduling of computing tasks, including federated learning for distributed edge intelligence, toward making edge networks greener and more sustainable. At the end of the paper, open research avenues and challenges are identified for all the surveyed topics.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-28T14:42:59Z</published>
+    <arxiv:comment>31 pages, submitted to ACM Computing Surveys</arxiv:comment>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>Neda Shalavi</name>
+      <arxiv:affiliation>University of Padova</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Giovanni Perin</name>
+      <arxiv:affiliation>University of Padova</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andrea Zanella</name>
+      <arxiv:affiliation>University of Padova</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Michele Rossi</name>
+      <arxiv:affiliation>University of Padova</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.17331v1</id>
+    <title>Trends in Energy Estimates for Computing in AI/Machine Learning Accelerators, Supercomputers, and Compute-Intensive Applications</title>
+    <updated>2022-10-12T16:14:33Z</updated>
+    <link href="https://arxiv.org/abs/2210.17331v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.17331v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We examine the computational energy requirements of different systems driven by the geometrical scaling law, and increasing use of Artificial Intelligence or Machine Learning (AI-ML) over the last decade. With more scientific and technology applications based on data-driven discovery, machine learning methods, especially deep neural networks, have become widely used. In order to enable such applications, both hardware accelerators and advanced AI-ML methods have led to the introduction of new architectures, system designs, algorithms, and software. Our analysis of energy trends indicates three important observations: 1) Energy efficiency due to geometrical scaling is slowing down; 2) The energy efficiency at the bit-level does not translate into efficiency at the instruction-level, or at the system-level for a variety of systems, especially for large-scale AI-ML accelerators or supercomputers; 3) At the application level, general-purpose AI-ML methods can be computationally energy intensive, off-setting the gains in energy from geometrical scaling and special purpose accelerators. Further, our analysis provides specific pointers for integrating energy efficiency with performance analysis for enabling high-performance and sustainable computing in the future.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-12T16:14:33Z</published>
+    <arxiv:comment>8 pages, 9 figures, Submitted to Proceedings of IEEE Conference on High Performance Extreme Computing (HPEC) 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Sadasivan Shankar</name>
+    </author>
+    <author>
+      <name>Albert Reuther</name>
+    </author>
+    <arxiv:doi>10.1109/HPEC55821.2022.9926296</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/HPEC55821.2022.9926296" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.07062v1</id>
+    <title>16 Years of SPEC Power: An Analysis of x86 Energy Efficiency Trends</title>
+    <updated>2024-11-11T15:26:01Z</updated>
+    <link href="https://arxiv.org/abs/2411.07062v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.07062v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The SPEC Power benchmark offers valuable insights into the energy efficiency of server systems, allowing comparisons across various hardware and software configurations. Benchmark results are publicly available for hundreds of systems from different vendors, published since 2007. We leverage this data to perform an analysis of trends in x86 server systems, focusing on power consumption, energy efficiency, energy proportionality and idle power consumption. Through this analysis, we aim to provide a clearer understanding of how server energy efficiency has evolved and the factors influencing these changes.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-11T15:26:01Z</published>
+    <arxiv:comment>Artifacts to reproduce this paper can be found at https://doi.org/10.5281/zenodo.12656360</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <arxiv:journal_ref>2024 IEEE International Conference on Cluster Computing Workshops (CLUSTER Workshops), Kobe, Japan, 2024, pp. 76-80</arxiv:journal_ref>
+    <author>
+      <name>Hannes Tröpgen</name>
+    </author>
+    <author>
+      <name>Robert Schöne</name>
+    </author>
+    <author>
+      <name>Thomas Ilsche</name>
+    </author>
+    <author>
+      <name>Daniel Hackenberg</name>
+    </author>
+    <arxiv:doi>10.1109/CLUSTERWorkshops61563.2024.00020</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/CLUSTERWorkshops61563.2024.00020" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1205.3247v1</id>
+    <title>Tripod of Requirements in Horizontal Heterogeneous Mobile Cloud Computing</title>
+    <updated>2012-05-15T03:29:23Z</updated>
+    <link href="https://arxiv.org/abs/1205.3247v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.3247v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent trend of mobile computing is emerging toward executing resource-intensive applications in mobile devices regardless of underlying resource restrictions (e.g. limited processor and energy) that necessitate imminent technologies. Prosperity of cloud computing in stationary computers breeds Mobile Cloud Computing (MCC) technology that aims to augment computing and storage capabilities of mobile devices besides conserving energy. However, MCC is more heterogeneous and unreliable (due to wireless connectivity) compare to cloud computing. Problems like variations in OS, data fragmentation, and security and privacy discourage and decelerate implementation and pervasiveness of MCC. In this paper, we describe MCC as a horizontal heterogeneous ecosystem and identify thirteen critical metrics and approaches that influence on mobile-cloud solutions and success of MCC. We divide them into three major classes, namely ubiquity, trust, and energy efficiency and devise a tripod of requirements in MCC. Our proposed tripod shows that success of MCC is achievable by reducing mobility challenges (e.g. seamless connectivity, fragmentation), increasing trust, and enhancing energy efficiency.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-15T03:29:23Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <arxiv:journal_ref>Z. Sanaei, S. Abolfazli, A. Gani, and R. H. Khokhar, "Tripod of requirements in horizontal heterogeneous mobile cloud computing," in Proc.1st Int'l Conf. Computing, Information Systems, and Communications, 2012</arxiv:journal_ref>
+    <author>
+      <name>Zohreh Sanaei</name>
+    </author>
+    <author>
+      <name>Saeid Abolfazli</name>
+    </author>
+    <author>
+      <name>Abdullah Gani</name>
+    </author>
+    <author>
+      <name>Rashid Hafeez Khokhar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.09044v1</id>
+    <title>ElasticAI: Creating and Deploying Energy-Efficient Deep Learning Accelerator for Pervasive Computing</title>
+    <updated>2024-08-29T12:39:44Z</updated>
+    <link href="https://arxiv.org/abs/2409.09044v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.09044v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deploying Deep Learning (DL) on embedded end devices is a scorching trend in pervasive computing. Since most Microcontrollers on embedded devices have limited computing power, it is necessary to add a DL accelerator. Embedded Field Programmable Gate Arrays (FPGAs) are suitable for deploying DL accelerators for embedded devices, but developing an energy-efficient DL accelerator on an FPGA is not easy. Therefore, we propose the ElasticAI-Workflow that aims to help DL developers to create and deploy DL models as hardware accelerators on embedded FPGAs. This workflow consists of two key components: the ElasticAI-Creator and the Elastic Node. The former is a toolchain for automatically generating DL accelerators on FPGAs. The latter is a hardware platform for verifying the performance of the generated accelerators. With this combination, the performance of the accelerator can be sufficiently guaranteed. We will demonstrate the potential of our approach through a case study.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-29T12:39:44Z</published>
+    <arxiv:comment>The paper is accepted by 2023 IEEE International Conference on Pervasive Computing and Communications (Best Demo Award)</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Chao Qian</name>
+    </author>
+    <author>
+      <name>Tianheng Ling</name>
+    </author>
+    <author>
+      <name>Gregor Schiele</name>
+    </author>
+    <arxiv:doi>10.1109/PerComWorkshops56833.2023.10150398</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/PerComWorkshops56833.2023.10150398" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.17283v1</id>
+    <title>Energy Efficiency trends in HPC: what high-energy and astrophysicists need to know</title>
+    <updated>2025-03-21T16:30:22Z</updated>
+    <link href="https://arxiv.org/abs/2503.17283v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.17283v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The growing energy demands of HPC systems have made energy efficiency a critical concern for system developers and operators. However, HPC users are generally less aware of how these energy concerns influence the design, deployment, and operation of supercomputers even though they experience the consequences. This paper examines the implications of HPC's energy consumption, providing an overview of current trends aimed at improving energy efficiency. We describe how hardware innovations such as energy-efficient processors, novel system architectures, power management techniques, and advanced scheduling policies do have a direct impact on how applications need to be programmed and executed on HPC systems. For application developers, understanding how these new systems work and how to analyse and report the performances of their own software is critical in the dialog with HPC system designers and administrators. The paper aims to raise awareness about energy efficiency among users, particularly in the high energy physics and astrophysics domains, offering practical advice on how to analyse and optimise applications to reduce their energy consumption without compromising on performance.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-21T16:30:22Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <arxiv:journal_ref>https://www.frontiersin.org/journals/physics/articles/10.3389/fphy.2025.1542474/full</arxiv:journal_ref>
+    <author>
+      <name>Estela Suarez</name>
+    </author>
+    <author>
+      <name>Jorge Amaya</name>
+    </author>
+    <author>
+      <name>Martin Frank</name>
+    </author>
+    <author>
+      <name>Oliver Freyermuth</name>
+    </author>
+    <author>
+      <name>Maria Girone</name>
+    </author>
+    <author>
+      <name>Bartosz Kostrzewa</name>
+    </author>
+    <author>
+      <name>Susanne Pfalzner</name>
+    </author>
+    <arxiv:doi>10.3389/fphy.2025.1542474</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3389/fphy.2025.1542474" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.12090v2</id>
+    <title>Hardware Trends Impacting Floating-Point Computations In Scientific Applications</title>
+    <updated>2024-12-20T16:46:47Z</updated>
+    <link href="https://arxiv.org/abs/2411.12090v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.12090v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The evolution of floating-point computation has been shaped by algorithmic advancements, architectural innovations, and the increasing computational demands of modern technologies, such as artificial intelligence (AI) and high-performance computing (HPC). This paper examines the historical progression of floating-point computation in scientific applications and contextualizes recent trends driven by AI, particularly the adoption of reduced-precision floating-point types. The challenges posed by these trends, including the trade-offs between performance, efficiency, and precision, are discussed, as are innovations in mixed-precision computing and emulation algorithms that offer solutions to these challenges. This paper also explores architectural shifts, including the role of specialized and general-purpose hardware, and how these trends will influence future advancements in scientific computing, energy efficiency, and system design.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-18T22:01:32Z</published>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Jack Dongarra</name>
+    </author>
+    <author>
+      <name>John Gunnels</name>
+    </author>
+    <author>
+      <name>Harun Bayraktar</name>
+    </author>
+    <author>
+      <name>Azzam Haidar</name>
+    </author>
+    <author>
+      <name>Dan Ernst</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1404.4629v2</id>
+    <title>A Survey of Methods For Analyzing and Improving GPU Energy Efficiency</title>
+    <updated>2014-04-18T14:43:40Z</updated>
+    <link href="https://arxiv.org/abs/1404.4629v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1404.4629v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent years have witnessed a phenomenal growth in the computational capabilities and applications of GPUs. However, this trend has also led to dramatic increase in their power consumption. This paper surveys research works on analyzing and improving energy efficiency of GPUs. It also provides a classification of these techniques on the basis of their main research idea. Further, it attempts to synthesize research works which compare energy efficiency of GPUs with other computing systems, e.g. FPGAs and CPUs. The aim of this survey is to provide researchers with knowledge of state-of-the-art in GPU power management and motivate them to architect highly energy-efficient GPUs of tomorrow.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-04-17T19:57:51Z</published>
+    <arxiv:comment>Accepted with minor revision in ACM Computing Survey Journal (impact factor 3.85, five year impact of 7.85)</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Sparsh Mittal</name>
+    </author>
+    <author>
+      <name>Jeffrey S. Vetter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.08873v1</id>
+    <title>New Trends in Photonic Switching and Optical Network Architecture for Data Centre and Computing Systems</title>
+    <updated>2022-09-19T09:28:17Z</updated>
+    <link href="https://arxiv.org/abs/2209.08873v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.08873v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI/ML for data centres and data centres for AI/ML are defining new trends in cloud computing. Disaggregated heterogeneous reconfigurable computing systems realized by photonic interconnects and photonic switching expect greatly enhanced throughput and energy-efficiency for AI/ML workloads, especially when aided by an AI/ML control plane.</summary>
+    <category term="cs.NI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-19T09:28:17Z</published>
+    <arxiv:primary_category term="cs.NI"/>
+    <author>
+      <name>S. J. Ben Yoo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.02527v1</id>
+    <title>Redefining Computing: Rise of ARM from consumer to Cloud for energy efficiency</title>
+    <updated>2024-02-04T15:17:46Z</updated>
+    <link href="https://arxiv.org/abs/2402.02527v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.02527v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Today, our lifestyle revolves around digital devices powered by microprocessors of different instruction set architectures (ISA). Among them, the most common are x86 and ARM, the brainpower of our computers and smartphones. Reduced instruction set computing (RISC) is the basis of ARM architecture, designed to offer greater energy efficiency. On the other hand, principles of complex instruction set computing (CISC) are utilized by x86 processors, which handle heavier computing tasks while being more power-hungry. The rise of smartphones over a decade has changed the laptop market. It also influenced customers towards ARM-based energy-efficient laptops. This transition in the computing segment is seen not only in consumers but also in commercial settings, especially data centers. Usually, data centers are designed to operate 24/7, where energy is a big concern. So, ARM chips have started making their way to cloud servers. This paper comprehensively analyzes and compares the ARM and x86 architectures to unravel the factors contributing to ARM's increasing dominance in the market. It also explores the impact of smartphones on the laptop market and assesses the significance of system-on-a-chip (SoC). Focusing on the proper utilization of energy and sustainability, our paper offers valuable insights into the growing trend of adopting ARM processors in the computing industry.</summary>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-04T15:17:46Z</published>
+    <arxiv:comment>19 pages, 13 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CE"/>
+    <author>
+      <name>Tahmid Noor Rahman</name>
+    </author>
+    <author>
+      <name>Nusaiba Khan</name>
+    </author>
+    <author>
+      <name>Zarif Ishmam Zaman</name>
+    </author>
+    <arxiv:doi>10.30574/wjarr.2024.21.1.0017</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.30574/wjarr.2024.21.1.0017" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.09976v3</id>
+    <title>Energy Efficient Computing Systems: Architectures, Abstractions and Modeling to Techniques and Standards</title>
+    <updated>2022-03-23T04:44:36Z</updated>
+    <link href="https://arxiv.org/abs/2007.09976v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.09976v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Computing systems have undergone several inflexion points - while Moore's law guided the semiconductor industry to cram more and more transistors and logic into the same volume, the limits of instruction-level parallelism (ILP) and the end of Dennard's scaling drove the industry towards multi-core chips. We have now entered the era of domain-specific architectures for new workloads like AI and ML. These trends continue, arguably with other limits, along with challenges imposed by tighter integration, extreme form factors and diverse workloads, making systems more complex from an energy efficiency perspective. Many research surveys have covered different aspects of techniques in hardware and microarchitecture across devices, servers, HPC, data center systems along with software, algorithms, frameworks for energy efficiency and thermal management. Somewhat in parallel, the semiconductor industry has developed techniques and standards around specification, modeling and verification of complex chips; these areas have not been addressed in detail by previous research surveys. This survey aims to bring these domains together and is composed of a systematic categorization of key aspects of building energy efficient systems - (a) specification - the ability to precisely specify the power intent or properties at different layers (b) modeling and simulation of the entire system or subsystem (hardware or software or both) so as to be able to perform what-if analysis, (c) techniques used for implementing energy efficiency at different levels of the stack, (d) verification techniques used to provide guarantees that the functionality of complex designs are preserved, and (e) energy efficiency standards and consortiums that aim to standardize different aspects of energy efficiency, including cross-layer optimizations.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-20T09:52:20Z</published>
+    <arxiv:comment>63 pages, 6 figures. arXiv admin note: text overlap with arXiv:1404.4629 by other authors</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Rajeev Muralidhar</name>
+    </author>
+    <author>
+      <name>Renata Borovica-Gajic</name>
+    </author>
+    <author>
+      <name>Rajkumar Buyya</name>
+    </author>
+    <arxiv:doi>10.1145/3511094</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1145/3511094" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.12884v1</id>
+    <title>A Survey of FPGA Optimization Methods for Data Center Energy Efficiency</title>
+    <updated>2023-09-22T14:17:02Z</updated>
+    <link href="https://arxiv.org/abs/2309.12884v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.12884v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This article provides a survey of academic literature about field programmable gate array (FPGA) and their utilization for energy efficiency acceleration in data centers. The goal is to critically present the existing FPGA energy optimization techniques and discuss how they can be applied to such systems. To do so, the article explores current energy trends and their projection to the future with particular attention to the requirements set out by the European Code of Conduct for Data Center Energy Efficiency. The article then proposes a complete analysis of over ten years of research in energy optimization techniques, classifying them by purpose, method of application, and impacts on the sources of consumption. Finally, we conclude with the challenges and possible innovations we expect for this sector.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-22T14:17:02Z</published>
+    <arxiv:comment>Accepted for publication in IEEE Transactions on Sustainable Computing</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Mattia Tibaldi</name>
+    </author>
+    <author>
+      <name>Christian Pilato</name>
+    </author>
+    <arxiv:doi>10.1109/TSUSC.2023.3273852</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TSUSC.2023.3273852" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.27379v1</id>
+    <title>Spiking Neural Networks: The Future of Brain-Inspired Computing</title>
+    <updated>2025-10-31T11:14:59Z</updated>
+    <link href="https://arxiv.org/abs/2510.27379v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.27379v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spiking Neural Networks (SNNs) represent the latest generation of neural computation, offering a brain-inspired alternative to conventional Artificial Neural Networks (ANNs). Unlike ANNs, which depend on continuous-valued signals, SNNs operate using distinct spike events, making them inherently more energy-efficient and temporally dynamic. This study presents a comprehensive analysis of SNN design models, training algorithms, and multi-dimensional performance metrics, including accuracy, energy consumption, latency, spike count, and convergence behavior. Key neuron models such as the Leaky Integrate-and-Fire (LIF) and training strategies, including surrogate gradient descent, ANN-to-SNN conversion, and Spike-Timing Dependent Plasticity (STDP), are examined in depth. Results show that surrogate gradient-trained SNNs closely approximate ANN accuracy (within 1-2%), with faster convergence by the 20th epoch and latency as low as 10 milliseconds. Converted SNNs also achieve competitive performance but require higher spike counts and longer simulation windows. STDP-based SNNs, though slower to converge, exhibit the lowest spike counts and energy consumption (as low as 5 millijoules per inference), making them optimal for unsupervised and low-power tasks. These findings reinforce the suitability of SNNs for energy-constrained, latency-sensitive, and adaptive applications such as robotics, neuromorphic vision, and edge AI systems. While promising, challenges persist in hardware standardization and scalable training. This study concludes that SNNs, with further refinement, are poised to propel the next phase of neuromorphic computing.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-31T11:14:59Z</published>
+    <arxiv:comment>17 pages, 7 figures, 4 tables, Published with International Journal of Engineering Trends and Technology (IJETT)</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <arxiv:journal_ref>International Journal of Engineering Trends and Technology, vol. 73, no. 10, pp.32-48, 2025</arxiv:journal_ref>
+    <author>
+      <name>Sales G. Aribe</name>
+    </author>
+    <arxiv:doi>10.14445/22315381/IJETT-V73I10P104</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.14445/22315381/IJETT-V73I10P104" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.09692v2</id>
+    <title>Spike-based Neuromorphic Computing for Next-Generation Computer Vision</title>
+    <updated>2024-03-16T05:45:59Z</updated>
+    <link href="https://arxiv.org/abs/2310.09692v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.09692v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neuromorphic Computing promises orders of magnitude improvement in energy efficiency compared to traditional von Neumann computing paradigm. The goal is to develop an adaptive, fault-tolerant, low-footprint, fast, low-energy intelligent system by learning and emulating brain functionality which can be realized through innovation in different abstraction layers including material, device, circuit, architecture and algorithm. As the energy consumption in complex vision tasks keep increasing exponentially due to larger data set and resource-constrained edge devices become increasingly ubiquitous, spike-based neuromorphic computing approaches can be viable alternative to deep convolutional neural network that is dominating the vision field today. In this book chapter, we introduce neuromorphic computing, outline a few representative examples from different layers of the design stack (devices, circuits and algorithms) and conclude with a few exciting applications and future research directions that seem promising for computer vision in the near future.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.ET" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-15T01:05:35Z</published>
+    <arxiv:comment>Pending to be published as a book chapter in the book 'Computer Vision: Challenges, Trends, and Opportunities' from CRC Press</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Md Sakib Hasan</name>
+    </author>
+    <author>
+      <name>Catherine D. Schuman</name>
+    </author>
+    <author>
+      <name>Zhongyang Zhang</name>
+    </author>
+    <author>
+      <name>Tauhidur Rahman</name>
+    </author>
+    <author>
+      <name>Garrett S. Rose</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.18139v1</id>
+    <title>Neuromorphic Computing for Embodied Intelligence in Autonomous Systems: Current Trends, Challenges, and Future Directions</title>
+    <updated>2025-07-24T07:01:52Z</updated>
+    <link href="https://arxiv.org/abs/2507.18139v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.18139v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The growing need for intelligent, adaptive, and energy-efficient autonomous systems across fields such as robotics, mobile agents (e.g., UAVs), and self-driving vehicles is driving interest in neuromorphic computing. By drawing inspiration from biological neural systems, neuromorphic approaches offer promising pathways to enhance the perception, decision-making, and responsiveness of autonomous platforms. This paper surveys recent progress in neuromorphic algorithms, specialized hardware, and cross-layer optimization strategies, with a focus on their deployment in real-world autonomous scenarios. Special attention is given to event-based dynamic vision sensors and their role in enabling fast, efficient perception. The discussion highlights new methods that improve energy efficiency, robustness, adaptability, and reliability through the integration of spiking neural networks into autonomous system architectures. We integrate perspectives from machine learning, robotics, neuroscience, and neuromorphic engineering to offer a comprehensive view of the state of the field. Finally, emerging trends and open challenges are explored, particularly in the areas of real-time decision-making, continual learning, and the development of secure, resilient autonomous systems.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-24T07:01:52Z</published>
+    <arxiv:comment>To appear at the 31st IEEE International Symposium on On-Line Testing and Robust System Design (IOLTS), Ischia, Italy, July 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Alberto Marchisio</name>
+    </author>
+    <author>
+      <name>Muhammad Shafique</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.06897v1</id>
+    <title>A Bibliometric Review of Neuromorphic Computing and Spiking Neural Networks</title>
+    <updated>2023-04-14T02:14:38Z</updated>
+    <link href="https://arxiv.org/abs/2304.06897v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.06897v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neuromorphic computing and spiking neural networks aim to leverage biological inspiration to achieve greater energy efficiency and computational power beyond traditional von Neumann architectured machines. In particular, spiking neural networks hold the potential to advance artificial intelligence as the basis of third-generation neural networks. Aided by developments in memristive and compute-in-memory technologies, neuromorphic computing hardware is transitioning from laboratory prototype devices to commercial chipsets; ushering in an era of low-power computing. As a nexus of biological, computing, and material sciences, the literature surrounding these concepts is vast, varied, and somewhat distinct from artificial neural network sources. This article uses bibliometric analysis to survey the last 22 years of literature, seeking to establish trends in publication and citation volumes (III-A); analyze impactful authors, journals and institutions (III-B); generate an introductory reading list (III-C); survey collaborations between countries, institutes and authors (III-D), and to analyze changes in research topics over the years (III-E). We analyze literature data from the Clarivate Web of Science using standard bibliometric methods. By briefly introducing the most impactful literature in this field from the last two decades, we encourage AI practitioners and researchers to look beyond contemporary technologies toward a potentially spiking future of computing.</summary>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-14T02:14:38Z</published>
+    <arxiv:comment>8 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.NE"/>
+    <author>
+      <name>Nicholas J. Pritchard</name>
+    </author>
+    <author>
+      <name>Andreas Wicenec</name>
+    </author>
+    <author>
+      <name>Mohammed Bennamoun</name>
+    </author>
+    <author>
+      <name>Richard Dodson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.00081v1</id>
+    <title>Sustainable Computing -- Without the Hot Air</title>
+    <updated>2022-06-30T19:48:33Z</updated>
+    <link href="https://arxiv.org/abs/2207.00081v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.00081v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The demand for computing is continuing to grow exponentially. This growth will translate to exponential growth in computing's energy consumption unless improvements in its energy-efficiency can outpace increases in its demand. Yet, after decades of research, further improving energy-efficiency is becoming increasingly challenging, as it is already highly optimized. As a result, at some point, increases in computing demand are likely to outpace increases in its energy-efficiency, potentially by a wide margin. Such exponential growth, if left unchecked, will position computing as a substantial contributor to global carbon emissions. While prominent technology companies have recognized the problem and sought to reduce their carbon emissions, they understandably focus on their successes, which has the potential to inadvertently convey the false impression that this is now, or will soon be, a solved problem. Such false impressions can be counterproductive if they serve to discourage further research in this area, since, as we discuss, eliminating computing's, and more generally society's, carbon emissions is far from a solved problem. To better understand the problem's scope, this paper distills the fundamental trends that determine computing's carbon footprint and their implications for achieving sustainable computing.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-30T19:48:33Z</published>
+    <arxiv:comment>Accepted to HotCarbon'22</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Noman Bashir</name>
+    </author>
+    <author>
+      <name>David Irwin</name>
+    </author>
+    <author>
+      <name>Prashant Shenoy</name>
+    </author>
+    <author>
+      <name>Abel Souza</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.02767v1</id>
+    <title>A Novel IaaS Tax Model as Leverage Towards Green Cloud Computing</title>
+    <updated>2025-09-02T19:13:21Z</updated>
+    <link href="https://arxiv.org/abs/2509.02767v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.02767v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The cloud computing technology uses datacenters, which require energy. Recent trends show that the required energy for these datacenters will rise over time, or at least remain constant. Hence, the scientific community developed different algorithms, architectures, and approaches for improving the energy efficiency of cloud datacenters, which are summarized under the umbrella term Green Cloud computing. In this paper, we use an economic approach - taxes - for reducing the energy consumption of datacenters. We developed a tax model called GreenCloud tax, which penalizes energy-inefficient datacenters while fostering datacenters that are energy-efficient. Hence, providers running energy-efficient datacenters are able to offer cheaper prices to consumers, which consequently leads to a shift of workloads from energy-inefficient datacenters to energy-efficient datacenters. The GreenCloud tax approach was implemented using the simulation environment CloudSim. We applied real data sets published in the SPEC benchmark for the executed simulation scenarios, which we used for evaluating the GreenCloud tax.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-02T19:13:21Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Benedikt Pittl</name>
+    </author>
+    <author>
+      <name>Werner Mach</name>
+    </author>
+    <author>
+      <name>Erich Schikuta</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.04450v1</id>
+    <title>Sustainable Edge Computing: Challenges and Future Directions</title>
+    <updated>2023-04-10T08:34:12Z</updated>
+    <link href="https://arxiv.org/abs/2304.04450v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.04450v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An increasing amount of data is being injected into the network from IoT (Internet of Things) applications. Many of these applications, developed to improve society's quality of life, are latency-critical and inject large amounts of data into the network. These requirements of IoT applications trigger the emergence of Edge computing paradigm. Currently, data centers are responsible for a global energy use between 2% and 3%. However, this trend is difficult to maintain, as bringing computing infrastructures closer to the edge of the network comes with its own set of challenges for energy efficiency. In this paper, we propose our approach for the sustainability of future computing infrastructures to provide (i) an energy-efficient and economically viable deployment, (ii) a fault-tolerant automated operation, and (iii) a collaborative resource management to improve resource efficiency. We identify the main limitations of applying Cloud-based approaches close to the data sources and present the research challenges to Edge sustainability arising from these constraints. We propose two-phase immersion cooling, formal modeling, machine learning, and energy-centric federated management as Edge-enabling technologies. We present our early results towards the sustainability of an Edge infrastructure to demonstrate the benefits of our approach for future computing environments and deployments.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-10T08:34:12Z</published>
+    <arxiv:comment>26 pages, 16 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Patricia Arroba</name>
+    </author>
+    <author>
+      <name>Rajkumar Buyya</name>
+    </author>
+    <author>
+      <name>Román Cárdenas</name>
+    </author>
+    <author>
+      <name>José L. Risco-Martín</name>
+    </author>
+    <author>
+      <name>José M. Moya</name>
+    </author>
+    <arxiv:doi>10.1002/spe.3340</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/spe.3340" title="doi"/>
+  </entry>
+</feed>

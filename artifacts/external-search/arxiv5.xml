@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/vXhn/TDqr367Paihj8fZsjwGoaI</id>
+  <title>arXiv Query: search_query=all:TokenPowerBench OR (all:"power consumption" AND all:"LLM inference" AND all:benchmark)&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-07-31T06:09:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:TokenPowerBench+OR+(all:%22power+consumption%22+AND+(all:%22LLM+inference%22+AND+all:benchmark))&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>6</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.03024v1</id>
+    <title>TokenPowerBench: Benchmarking the Power Consumption of LLM Inference</title>
+    <updated>2025-12-02T18:50:17Z</updated>
+    <link href="https://arxiv.org/abs/2512.03024v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.03024v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language model (LLM) services now answer billions of queries per day, and industry reports show that inference, not training, accounts for more than 90% of total power consumption. However, existing benchmarks focus on either training/fine-tuning or performance of inference and provide little support for power consumption measurement and analysis of inference. We introduce TokenPowerBench, the first lightweight and extensible benchmark designed for LLM-inference power consumption studies. The benchmark combines (i) a declarative configuration interface covering model choice, prompt set, and inference engine, (ii) a measurement layer that captures GPU-, node-, and system-level power without specialized power meters, and (iii) a phase-aligned metrics pipeline that attributes energy to the prefill and decode stages of every request. These elements make it straight-forward to explore the power consumed by an LLM inference run; furthermore, by varying batch size, context length, parallelism strategy and quantization, users can quickly assess how each setting affects joules per token and other energy-efficiency metrics. We evaluate TokenPowerBench on four of the most widely used model series (Llama, Falcon, Qwen, and Mistral). Our experiments cover from 1 billion parameters up to the frontier-scale Llama3-405B model. Furthermore, we release TokenPowerBench as open source to help users to measure power consumption, forecast operating expenses, and meet sustainability targets when deploying LLM services.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-02T18:50:17Z</published>
+    <arxiv:comment>Accepted by the AAAI'26 Conference Main Track</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Chenxu Niu</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>Jie Li</name>
+    </author>
+    <author>
+      <name>Yongjian Zhao</name>
+    </author>
+    <author>
+      <name>Tongyang Wang</name>
+    </author>
+    <author>
+      <name>Xi Wang</name>
+    </author>
+    <author>
+      <name>Yong Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.07425v1</id>
+    <title>An Evaluation of LLMs Inference on Popular Single-board Computers</title>
+    <updated>2025-10-20T01:35:45Z</updated>
+    <link href="https://arxiv.org/abs/2511.07425v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.07425v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The growing demand for on-device large language model (LLM) inference is driving interest in deploying lightweight, cost-effective AI solutions on edge hardware. Single-board computers (SBCs) such as the Raspberry Pi and Orange Pi offer a promising platform for localized, privacy-preserving inference-but remain underexplored in the context of LLM workloads. In this work, we benchmark the performance of 25 quantized open-source LLMs across three SBCs-Raspberry Pi 4, Raspberry Pi 5, and Orange Pi 5 Pro-using two inference runtimes: Ollama and Llamafile. We evaluate generation throughput, memory usage, and power consumption under varying CPU configurations, using multiple prompt types to simulate realistic workloads. Our results show that SBCs can reliably support models up to 1.5B parameters, with Llamafile achieving up to 4x higher throughput and 30-40% lower power usage than Ollama. We identify architecture-specific bottlenecks, highlight runtime-level trade-offs, and provide practical deployment recommendations. This study offers the first broad evaluation of LLM inference on SBCs, bridging the gap between high-performance language models and affordable edge computing.</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-20T01:35:45Z</published>
+    <arxiv:comment>9 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name> Tung</name>
+      <arxiv:affiliation>Thomas</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Nguyen</name>
+    </author>
+    <author>
+      <name>Tuyen Nguyen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.03360v1</id>
+    <title>Sustainable LLM Inference for Edge AI: Evaluating Quantized LLMs for Energy Efficiency, Output Accuracy, and Inference Latency</title>
+    <updated>2025-04-04T11:29:30Z</updated>
+    <link href="https://arxiv.org/abs/2504.03360v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.03360v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deploying Large Language Models (LLMs) on edge devices presents significant challenges due to computational constraints, memory limitations, inference speed, and energy consumption. Model quantization has emerged as a key technique to enable efficient LLM inference by reducing model size and computational overhead. In this study, we conduct a comprehensive analysis of 28 quantized LLMs from the Ollama library, which applies by default Post-Training Quantization (PTQ) and weight-only quantization techniques, deployed on an edge device (Raspberry Pi 4 with 4GB RAM). We evaluate energy efficiency, inference performance, and output accuracy across multiple quantization levels and task types. Models are benchmarked on five standardized datasets (CommonsenseQA, BIG-Bench Hard, TruthfulQA, GSM8K, and HumanEval), and we employ a high-resolution, hardware-based energy measurement tool to capture real-world power consumption. Our findings reveal the trade-offs between energy efficiency, inference speed, and accuracy in different quantization settings, highlighting configurations that optimize LLM deployment for resource-constrained environments. By integrating hardware-level energy profiling with LLM benchmarking, this study provides actionable insights for sustainable AI, bridging a critical gap in existing research on energy-aware LLM deployment.</summary>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-04T11:29:30Z</published>
+    <arxiv:comment>30 pages, 14 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CY"/>
+    <author>
+      <name>Erik Johannes Husom</name>
+    </author>
+    <author>
+      <name>Arda Goknil</name>
+    </author>
+    <author>
+      <name>Merve Astekin</name>
+    </author>
+    <author>
+      <name>Lwin Khin Shar</name>
+    </author>
+    <author>
+      <name>Andre Kåsen</name>
+    </author>
+    <author>
+      <name>Sagar Sen</name>
+    </author>
+    <author>
+      <name>Benedikt Andreas Mithassel</name>
+    </author>
+    <author>
+      <name>Ahmet Soylu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.16653v2</id>
+    <title>H2EAL: Hybrid-Bonding Architecture with Hybrid Sparse Attention for Efficient Long-Context LLM Inference</title>
+    <updated>2025-12-08T13:48:55Z</updated>
+    <link href="https://arxiv.org/abs/2508.16653v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.16653v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) have demonstrated remarkable proficiency in a wide range of natural language processing applications. However, the high energy and latency overhead induced by the KV cache limits the edge deployment, especially for long contexts. Emerging hybrid bonding (HB) technology has been proposed as a promising alternative to conventional near-memory processing (NMP) architectures, offering improved bandwidth efficiency and lower power consumption while exhibiting characteristics of distributed memory. In this paper, we propose H2EAL, a hybrid bonding-based accelerator with sparse attention algorithm-hardware co-design for efficient LLM inference at the edge. At the algorithm level, we propose a hybrid sparse attention scheme with static and dynamic sparsity for different heads to fully leverage the sparsity with high accuracy. At the hardware level, we co-design the hardware to support hybrid sparse attention and propose memory-compute co-placement to address the distributed memory bottleneck. Since different attention heads exhibit different sparse patterns and the attention structure often mismatches the HB architecture, we further develop a load-balancing scheduler with parallel tiled attention to address workload imbalance and optimize the mapping strategy. Extensive experiments demonstrate H2EAL achieves 5.20~48.21x speedup and 6.22~73.48x energy efficiency improvement over baseline HB implementation, with a negligible average accuracy drop of 0.87% on multiple benchmarks.</summary>
+    <category term="cs.PF" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-20T03:42:37Z</published>
+    <arxiv:comment>International Conference on Computer-Aided Design (ICCAD) 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.PF"/>
+    <author>
+      <name>Zizhuo Fu</name>
+    </author>
+    <author>
+      <name>Xiaotian Guo</name>
+    </author>
+    <author>
+      <name>Wenxuan Zeng</name>
+    </author>
+    <author>
+      <name>Shuzhang Zhong</name>
+    </author>
+    <author>
+      <name>Yadong Zhang</name>
+    </author>
+    <author>
+      <name>Peiyu Chen</name>
+    </author>
+    <author>
+      <name>Runsheng Wang</name>
+    </author>
+    <author>
+      <name>Le Ye</name>
+    </author>
+    <author>
+      <name>Meng Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.00418v3</id>
+    <title>Serving LLMs in HPC Clusters: A Comparative Study of Qualcomm Cloud AI 100 Ultra and NVIDIA Data Center GPUs</title>
+    <updated>2025-10-28T22:58:55Z</updated>
+    <link href="https://arxiv.org/abs/2507.00418v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.00418v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This study presents a benchmarking analysis of the Qualcomm Cloud AI 100 Ultra (QAic) accelerator for large language model (LLM) inference, evaluating its energy efficiency (throughput per watt), performance, and hardware scalability against NVIDIA A100 GPUs (in 4x and 8x configurations) within the National Research Platform (NRP) ecosystem. A total of 12 open-source LLMs, ranging from 124 million to 70 billion parameters, are served using the vLLM framework. Our analysis reveals that QAic achieves competitive energy efficiency with advantages on specific models while enabling more granular hardware allocation: some 70B models operate on as few as 1 QAic card versus 8 A100 GPUs required, with 20x lower power consumption (148W vs 2,983W). For smaller models, single QAic devices achieve up to 35x lower power consumption compared to our 4-GPU A100 configuration (36W vs 1,246W). The findings offer insights into the potential of the Qualcomm Cloud AI 100 Ultra for energy-constrained and resource-efficient HPC deployments within the National Research Platform (NRP).</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-01T04:11:09Z</published>
+    <arxiv:comment>8 pages, 3 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Mohammad Firas Sada</name>
+    </author>
+    <author>
+      <name>John J. Graham</name>
+    </author>
+    <author>
+      <name>Elham E Khoda</name>
+    </author>
+    <author>
+      <name>Mahidhar Tatineni</name>
+    </author>
+    <author>
+      <name>Dmitry Mishin</name>
+    </author>
+    <author>
+      <name>Rajesh K. Gupta</name>
+    </author>
+    <author>
+      <name>Rick Wagner</name>
+    </author>
+    <author>
+      <name>Larry Smarr</name>
+    </author>
+    <author>
+      <name>Thomas A. DeFanti</name>
+    </author>
+    <author>
+      <name>Frank Würthwein</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.10852v1</id>
+    <title>The xPU-athalon: Quantifying the Competition of AI Acceleration</title>
+    <updated>2026-04-12T23:10:14Z</updated>
+    <link href="https://arxiv.org/abs/2604.10852v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.10852v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The push for greater efficiency in AI computation has given rise to an array of accelerator architectures that increasingly challenge the GPU's long-standing dominance. In this work, we provide a quantitative view of this evolving landscape of AI accelerators, including the Cerebras CS-3, SambaNova SN-40, Groq, Gaudi, and TPUv5e platforms, and compare against both NVIDIA (A100, H100) and AMD (MI-300X) GPUs. We evaluate key trade-offs in latency, throughput, power consumption, and energy-efficiency across both (i) end-to-end workloads and (ii) benchmarks of individual computational primitives. Notably, we find the optimal hardware platform varies across batch size, sequence length, and model size, revealing a large underlying optimization space. Our analysis includes detailed power measurements across the prefill and decode phases of LLM inference, as well as quantification of the energy cost of communication. We additionally find that Cerebras, SambaNova, and Gaudi have 10-60% higher idle power than NVIDIA and AMD GPUs, emphasizing the importance of high utilization in order to realize promised efficiency gains. Finally, we assess programmability across platforms based on our experiments with real profiled workloads, comparing the compilation times and software stack maturity required to achieve promised performance.</summary>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-12T23:10:14Z</published>
+    <arxiv:comment>Accepted to ISPASS 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.AR"/>
+    <author>
+      <name>Alicia Golden</name>
+    </author>
+    <author>
+      <name>Carole-Jean Wu</name>
+    </author>
+    <author>
+      <name>Gu-Yeon Wei</name>
+    </author>
+    <author>
+      <name>David Brooks</name>
+    </author>
+  </entry>
+</feed>
