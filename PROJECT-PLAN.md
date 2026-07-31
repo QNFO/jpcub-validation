@@ -41,18 +41,19 @@ This project validates or disconfirms that claim. It tests JPCUB retrospectively
 - [x] Core claim lock
 - [x] Closeout (v0.1-phase0)
 
-### Phase 1: Due Diligence
-- [ ] Query QNFO KG/D1 for prior JPCUB-related work
+### Phase 1: Due Diligence (COMPLETE — v0.2-phase1-dd)
+- [x] Query QNFO KG/D1 for prior JPCUB-related work — VERIFIED via d1-query.py (KIF-56 resolved; 937 papers, 3 JPCUB papers)
 - [x] External literature: JPCUB citations, computing metrics papers, paradigm shift analyses — 5 sources verified 2026-07-31 (arXiv, OpenAlex, Crossref, Zenodo records, Europe PMC); Semantic Scholar retired (429-prone) per research kaizen v2.35
-- [ ] Cross-Domain Consilience Gate (KIF-29) — JPCUB spans physics + CS + economics
-- [ ] Identify data sources for historical computing transitions
+- [x] Cross-Domain Consilience Gate (KIF-29) — JPCUB spans physics + CS + economics; empirically grounded (consilience-gate.md)
+- [x] Identify data sources for historical computing transitions — SPEC Power 16-yr dataset (arXiv:2411.07062) as anchor
 
-### Phase 2: Literature Search & Data Collection
-- [ ] Computing paradigm shift literature (Moore's law, Dennard scaling, Koomey's law)
-- [ ] Energy-efficiency metrics literature (Joules/op, FLOPS/Watt, etc.)
-- [ ] Post-silicon candidate benchmarking data
-- [ ] Collect historical JPCUB estimates for 6 major transitions
-- [ ] Collect traditional metric data for same transitions
+### Phase 2: Literature Search & Data Collection (COMPLETE — v0.3-phase2-lit)
+- [x] Computing paradigm shift literature (Moore's law, Dennard scaling, Koomey's law) — arxiv3.xml/arxiv4.xml, openalex_paradigm.json triaged
+- [x] Energy-efficiency metrics literature (Joules/op, FLOPS/Watt, etc.) — arxiv5.xml, crossref_metric.json, zenodo_metric.json, europepmc_metric.json triaged
+- [x] Post-silicon candidate benchmarking data — 7 candidates mapped (C9, S9-S13 + arxiv3.xml)
+- [x] Literature review with classification matrix + KIF-18 symmetry (artifacts/literature-review.md)
+- [ ] Collect historical JPCUB estimates for 6 major transitions (Phase 4 data task)
+- [ ] Collect traditional metric data for same transitions (Phase 4 data task)
 
 ### Phase 3: Citation Management
 - [ ] Extract citations from computing-machines, QWAV whitepaper, and new literature
