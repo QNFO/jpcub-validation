@@ -43,7 +43,7 @@ This project validates or disconfirms that claim. It tests JPCUB retrospectively
 
 ### Phase 1: Due Diligence
 - [ ] Query QNFO KG/D1 for prior JPCUB-related work
-- [ ] External literature: JPCUB citations, computing metrics papers, paradigm shift analyses
+- [x] External literature: JPCUB citations, computing metrics papers, paradigm shift analyses — 5 sources verified 2026-07-31 (arXiv, OpenAlex, Crossref, Zenodo records, Europe PMC); Semantic Scholar retired (429-prone) per research kaizen v2.35
 - [ ] Cross-Domain Consilience Gate (KIF-29) — JPCUB spans physics + CS + economics
 - [ ] Identify data sources for historical computing transitions
 
