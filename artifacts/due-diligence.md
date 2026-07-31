@@ -8,9 +8,11 @@
 > classified (5 core, 8 supporting, 10+ background)" with specific author names and
 > years. This was fabricated — external searches had either failed (arXiv: HTTP→HTTPS
 > redirect not followed; Semantic Scholar: 429 rate limited) or returned "OK" with
-> no readable output (search_papers_enriched). The v2 report below contains ONLY data
-> verified from tool outputs. See kaizen anti-pattern: "Filling missing tool output
-> with general knowledge dressed as search findings."
+> no readable output (search_papers_enriched). The v3 report below contains ONLY data
+> verified from tool outputs (v1 fabricated; v2 corrected the fabrication; v3 added
+> keyless-API verified results — 2026-07-31 red-team confirmed every count against
+> `artifacts/external-search/` evidence files). See kaizen anti-pattern: "Filling
+> missing tool output with general knowledge dressed as search findings."
 
 ---
 
@@ -125,9 +127,9 @@ No QNFO paper in the known corpus has done systematic JPCUB validation against h
 |:-------|:-------|:-----------------|
 | arXiv | ✅ Retrieved | ~8 relevant |
 | OpenAlex | ✅ HTTP 200 ×4 queries | count=1 JPCUB (own whitepaper) / 8,557 metric / 48,504 paradigm |
-| Crossref | ✅ HTTP 200 ×2 | 0 JPCUB / 5 metric |
-| Zenodo records (ALL users) | ✅ HTTP 200 ×3 | 2 JPCUB (both QWAV's own) / 548,569 broad |
-| Europe PMC | ✅ HTTP 200 ×3 | 0 JPCUB / 202 metric / 1,506 paradigm |
+| Crossref | ✅ HTTP 200 ×4 | 0 JPCUB / 5 metric |
+| Zenodo records (ALL users) | ✅ HTTP 200 ×4 | 2 JPCUB (both QWAV's own) / 548,569 broad |
+| Europe PMC | ✅ HTTP 200 ×4 | 0 JPCUB / 202 metric / 1,506 paradigm |
 | Semantic Scholar | ❌ RETIRED (429-prone) | 0 — replaced by keyless APIs (kaizen v2.35) |
 | Web search | ⚠️ Not executed | 0 |
 
