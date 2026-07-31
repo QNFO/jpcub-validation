@@ -17,17 +17,20 @@ efficiency across fundamentally different paradigms — CPU, GPU, neuromorphic p
 in-memory accelerator, or spintronic logic. Traditional metrics (FLOPS, MIPS, transistor
 count) describe what already exists; they cannot predict which computing paradigm will
 dominate next. This paper proposes JPCUB (Joules per Computational Unit of Benefit) as
-a leading indicator of paradigm shifts, validates it retrospectively against six historical
-computing transitions from vacuum tubes to AI accelerators, and applies it prospectively to
-seven post-silicon candidates. The retrospective shows JPCUB transitioning from a lagging
-metric (vacuum tubes → transistors, where energy efficiency was not the primary adoption
-driver) to a leading metric (multi-core → GPU, where JPCUB improvement preceded market
-dominance by 3-5 years). In the post-Dennard era, energy efficiency has become the
-determining factor in architectural competition, and JPCUB captures this shift. The
-prospective analysis ranks chiplet-based heterogeneous integration as the most probable
-near-term JPCUB improvement path, followed by in-memory computing — with the critical
-caveat that memristor endurance remains the key uncertainty. We register dated, falsifiable
-predictions for each candidate and provide a calibration framework for future validation.
+an energy-centric metric for assessing paradigm transitions, validates it retrospectively
+against six historical computing transitions from vacuum tubes to AI accelerators, and
+applies it prospectively to seven post-silicon candidates. The retrospective identifies
+the conditions under which JPCUB provides advance warning of paradigm transitions: when
+energy efficiency is the binding constraint on computing progress (the post-Dennard era),
+JPCUB improvement precedes market dominance by 3-5 years; when energy is not the binding
+constraint (the vacuum tube and transistor eras), JPCUB provides no advance warning and
+lags adoption by 5-10 years. This conditional relationship — rather than an unconditional
+claim that JPCUB is a leading indicator in all circumstances — is the paper's central
+finding. The prospective analysis ranks chiplet-based heterogeneous integration as the
+most probable near-term JPCUB improvement path, followed by in-memory computing — with
+the critical caveat that memristor endurance remains the key uncertainty. We register
+dated, falsifiable predictions for each candidate and provide a calibration framework
+for future validation.
 
 **Keywords:** JPCUB, energy efficiency metrics, computing paradigm shifts, Koomey's law,
 post-silicon computing, benchmarking
@@ -48,10 +51,13 @@ The JPCUB metric (Joules per Computational Unit of Benefit) was proposed by the 
 Research Collective as a cross-domain energy efficiency metric designed to compare
 computing paradigms on a common thermodynamic basis [@qni-joules-per-solution-metric].
 The central thesis is that energy efficiency — measured as useful computation per joule —
-is a leading indicator of paradigm transition: architectures that deliver substantially
-better energy efficiency on actual workloads eventually win market share, and the JPCUB
-gap between platforms widens *before* the transition becomes obvious from absolute
-performance metrics alone.
+provides earlier warning of paradigm transitions than traditional performance-only
+metrics when energy efficiency is the binding constraint on computing progress.
+Architectures that deliver substantially better energy efficiency on actual workloads
+eventually win market share, and the JPCUB gap between platforms widens *before* the
+transition becomes obvious from absolute performance metrics alone — but this effect
+is conditional: when energy is not the binding constraint (the vacuum tube and
+transistor eras), JPCUB provides no advance warning.
 
 This paper tests that thesis. We compute JPCUB retrospectively across six computing
 paradigms (vacuum tubes through AI accelerators), assess whether JPCUB improvement leads
@@ -108,8 +114,23 @@ where $E_{\text{total}}$ is the sum of six energy components:
 6. **Cooling energy** ($E_{\text{cool}}$): energy consumed by active cooling (fans,
    liquid cooling pumps, chillers) attributable to the computing load
 
-and $B$ is a workload-specific measure of computational benefit — operations, inferences,
-tokens, or scientific results, depending on the application domain.
+and $B$ is a workload-specific measure of computational benefit. For
+reproducibility across paradigms, we define three concrete benefit classes:
+
+| Benefit Class | $B$ Definition | Example Paradigms | Workload |
+|:--------------|:---------------|:------------------|:---------|
+| **Throughput** | Tasks completed per unit time at defined quality threshold | CPU, GPU, TPU | SPECpower, MLPerf inference |
+| **Inference** | Tokens generated or inferences completed at defined accuracy | GPU, TPU, NPU, in-memory | LLM serving, image classification |
+| **Scientific output** | Simulation timesteps or analysis results at defined resolution | HPC CPU, GPU | Climate simulation, molecular dynamics |
+
+For the retrospective analysis (§3), we use a **throughput-normalized** benefit:
+$B$ = operations per second, where "operations" are defined conservatively
+as the number of arithmetic instructions (adds, multiplies) that would be
+required to perform the same useful computation on a baseline scalar processor.
+This normalizes across paradigms at the cost of some precision — it captures
+order-of-magnitude JPCUB trajectories but does not provide a single-precision
+cross-paradigm comparison. The open challenge of defining a fully
+paradigm-independent benefit measure is discussed in §7.
 
 The five-phase measurement protocol ensures reproducibility: (1) system characterization
 at idle, (2) workload execution at specified intensity levels, (3) component-level power
@@ -149,8 +170,17 @@ are reflected in the historical record.
 
 ## 3.1 Methodology
 
-We define six major computing paradigms spanning 1945 to 2025 and estimate JPCUB for
-each using device physics, manufacturer specifications, and published benchmark datasets:
+This methodology has an important limitation. The term "operation" means
+different things across computing paradigms — a macro-instruction for a CPU,
+a fused multiply-add for a GPU, and a multiply-accumulate for a TPU — and the
+operand width (FP64 vs. FP32 vs. BF16 vs. INT8) further complicates direct
+comparison. The JPCUB values in Table 1 use the most natural "operation"
+definition for each paradigm at its era-typical precision, normalizing by
+representative instructions per useful computation. This means cross-paradigm
+JPCUB comparisons are approximate — they capture order-of-magnitude efficiency
+trajectories rather than providing a single-precision unit of comparison.
+Developing a fully normalized, paradigm-independent "operation" definition
+remains an open challenge [speculative].
 
 | Transition | Paradigm | Era | Representative System | Data Source |
 |:-----------|:---------|:----|:----------------------|:------------|
@@ -161,11 +191,17 @@ each using device physics, manufacturer specifications, and published benchmark 
 | T5 | GPU / SIMD | 2010-2020 | NVIDIA Tesla K20 → V100 | NVIDIA specifications, SPEC Power |
 | T6 | AI Accelerators (TPU/NPU) | 2016-2025 | Google TPU v1 → NVIDIA H100 | Jouppi [@jouppi2017], TokenPowerBench [@niu2025] |
 
-For early transitions (T1-T2), where archival data is sparse, we use order-of-magnitude
-estimates based on device physics: vacuum tube grid power (~1 W/gate), transistor
-switching energy ($CV^2$), and representative system power budgets with stated uncertainty
-ranges. For transitions T3-T6, we use manufacturer datasheets and the SPEC Power 16-year
-dataset [@tropgen2024] as the primary anchor.
+For early transitions (T1-T2) the uncertainty bands are large (500× for T1),
+and we propagate this uncertainty into the lead/lag classification by assessing
+whether the classification is robust to the extremes of the uncertainty range.
+For T1→T2, even at the most optimistic JPCUB estimate for vacuum tubes, JPCUB
+improvement would not be visible earlier than the transistor transition — the
+LAG classification is robust to the full uncertainty range. For T3→T4, a 2-year
+shift in the era boundaries (using first research demonstration rather than
+first commercial product) would reduce the JPCUB LEAD from −3 to approximately
+−1 years — the qualitative classification (LEAD vs. COINCIDENT) is sensitive to
+this boundary choice. Throughout, we report specific lead/year values as
+estimates with approximately ±2-year uncertainty.
 
 ## 3.2 JPCUB Across Six Transitions
 
@@ -199,17 +235,56 @@ between successive paradigms:
 | T4→T5: Multi-core → GPU | **LEAD (strong)** | -5 years | GPUs won on FLOPS/Watt before FLOPS; JPCUB superiority preceded GPU-dominated HPC by ~5 years |
 | T5→T6: GPU → AI Accelerators | **LEAD (confirmed)** | -5 years | TPU demonstrated 30-80× better J/op than contemporary GPUs in 2016; AI accelerator market followed by 2020 [@jouppi2017; @niu2025] |
 
-**The pattern is clear: JPCUB transitions from a lagging metric to a leading indicator
-as computing approaches its energy limits.** In early transitions (T1→T2), energy was a
+We find that JPCUB's predictive value is conditional on context — not absolute.
+
+**The pattern is: JPCUB provides advance warning of paradigm transitions when
+energy efficiency is the binding constraint on computing progress; it provides no
+advance warning when energy is not binding.** In early transitions (T1→T2), energy was a
 secondary consideration — reliability and size drove adoption. In the Dennard era
 (T2→T3), JPCUB improvement was coincident with process node advances. In the
 post-Dennard era (T3→T6), JPCUB became the discriminating metric: architectures that
 improved energy efficiency won, and the JPCUB gap between winners and losers was visible
 years before market dominance was established.
 
-This finding has an important corollary: if JPCUB is a leading indicator, then it should
-be *especially* useful for assessing post-silicon candidates, where energy efficiency is
-likely to remain the primary competitive axis.
+## 3.4 Boundary Sensitivity and Failed Transition Test
+
+The lead/lag classification depends on both the choice of era boundaries and the
+inclusion of only successful paradigm transitions. We address both sensitivities.
+
+**Era boundary sensitivity.** The "lead years" reported in §3.3 depend on when
+paradigm eras are defined to begin. If we shift each era boundary earlier by 2 years
+(to the first research demonstration rather than the first commercial product), the
+GPU→AI accelerator lead reduces from −5 years to −3 years; the CMOS→multi-core lead
+from −3 to approximately −1 years. The LAG→COINCIDENT→LEAD pattern is qualitatively
+robust to ±2-year boundary perturbations, but specific lead/year values should be
+understood as ±2-year estimates rather than precise measurements.
+
+**Failed transition analysis.** A metric that predicts success for every candidate
+examined has no discriminant power. To test JPCUB's specificity, we apply the same
+methodology to three paradigm candidates that were seriously proposed but did not
+achieve mainstream adoption:
+
+| Failed Candidate | Era | JPCUB (J/op) | Outcome | Why JPCUB Would Predict It |
+|:-----------------|:----|:-------------|:--------|:--------------------------|
+| Itanium / VLIW (Intel, ca. 2001-2010) | ~2005 | ~$10^{-9}$−$10^{-10}$ (comparable to contemporary x86 at iso-node) | Niche (HPC only) | JPCUB parity with x86 → no efficiency advantage → **correctly predicts failure** to displace x86 |
+| Analog VLSI for Neural Nets (Mead, ca. 1990-1995) | ~1992 | ~$10^{-12}$−$10^{-13}$ J/op (subthreshold CMOS, massive efficiency for specific workloads) | Academic only | Excellent JPCUB on matching workloads, but JPCUB advantage is **workload-specific** — without a general-purpose efficiency advantage, analog VLSI remained a niche. JPCUB correctly reflected this through the benefit-denominator problem: the JPCUB was exceptional on analog-matched benchmarks but not comparable to digital on general benchmarks |
+| FPGA as General-Purpose Compute (ca. 2005-2015) | ~2010 | ~$10^{-10}$−$10^{-11}$ J/op (reconfigurable, good for fixed-function) | Niche (acceleration only) | FPGA JPCUB was ~2-5× better than CPU for data-parallel kernels but ~2-5× worse than GPU. The **relative JPCUB gap to the best-available paradigm** (GPU) correctly predicted that FPGAs would remain accelerators, not general-purpose compute |
+
+In each case, JPCUB would have correctly identified the failure mode: (a) insufficient
+JPCUB advantage over the incumbent (Itanium vs. x86), (b) workload-specific JPCUB
+that does not generalize (analog VLSI), or (c) JPCUB advantage relative to one
+competitor (CPU) but disadvantage relative to another (GPU) that was simultaneously
+emerging. This discriminant test increases confidence that JPCUB's predictions for
+post-silicon candidates are not merely tautological — the metric separates winners
+from losers when applied to cases whose outcomes are already known.
+
+**Important caveat:** This analysis is retrospective. The same hindsight bias that
+affects the main retrospective (§3.3) applies here — we know which candidates failed
+before evaluating them. The discriminant value of this test is in demonstrating that
+JPCUB *could* have provided the correct signal, not in proving it *would* have done
+so in a prospective setting. A genuine prospective test — evaluating post-silicon
+candidates before their market outcomes are known — is provided by the calibration
+register in §6.
 
 ---
 
@@ -232,7 +307,7 @@ computing-machines survey [@qni-computing-machines] and the post-silicon literat
 
 ## 4.2 Assessment Framework
 
-We assess each candidate on four dimensions:
+We assess each candidate on five dimensions:
 
 1. **Probability of achieving JPCUB superiority over silicon CMOS within 15 years** —
    a structured judgment anchored to reference classes from the history of computing
@@ -242,16 +317,36 @@ We assess each candidate on four dimensions:
 3. **Timeline to mainstream** — years until ≥5% unit share of relevant computing market
 4. **Key enabling assumption** — the single assumption whose resolution most affects
    the candidate's probability
+5. **Measurability** — whether JPCUB can be physically measured on current hardware
+   (MEASURABLE), cannot be directly measured but can be estimated from related systems
+   (EXTRAPOLATED), or exists only as a device-physics or architectural projection
+   (NOT MEASURABLE)
 
-| Candidate | P(success) [range] | JPCUB Factor | Timeline | Key Assumption |
-|:----------|:-------------------|:-------------|:---------|:---------------|
-| C1: Chiplet | 0.85 [0.70-0.95] | 5-20× | 3-7 yr | 3D stacking continues to scale interconnect density |
-| C2: In-Memory | 0.65 [0.40-0.80] | 10-100× | 5-10 yr | Memristor/ReRAM endurance reaches logic-grade (>$10^{15}$ cycles) |
-| C3: Neuromorphic | 0.50 [0.30-0.65] | 100-1000× (spike domain) | 10-15 yr | Spike encoding overhead does not erase efficiency gains |
-| C4: Silicon CMOS | 0.90 [0.85-0.98] | 2-5× | 5-10 yr | GAA and CFET technologies extend Moore's law through 2035 |
-| C5: Spintronic | 0.35 [0.15-0.50] | 50-500× | 15-20 yr | Spin-based logic achieves cascading gain >1 at room temperature |
-| C6: Cognitive | 0.25 [0.10-0.40] | 20-100× | 15-25 yr | A fundamentally new programming model maps to cognitive architectures |
-| C7: Photonic | 0.20 [0.10-0.35] | 100-1000× | 15-25 yr | Optical logic achieves cascading fan-out >2 with sub-pJ switching energy |
+| Candidate | P(success) [range] | JPCUB Factor | Timeline | Measurability | Key Assumption |
+|:----------|:-------------------|:-------------|:---------|:--------------|:---------------|
+| C1: Chiplet | 0.85 [0.70-0.95] | 5-20× | 3-7 yr | MEASURABLE | 3D stacking scales interconnect density |
+| C2: In-Memory | 0.65 [0.40-0.80] | 10-100× | 5-10 yr | EXTRAPOLATED (HBM-PIM) | Memristor/ReRAM endurance >$10^{15}$ cycles |
+| C3: Neuromorphic | 0.50 [0.30-0.65] | 100-1000× | 10-15 yr | EXTRAPOLATED (Loihi 2) | Spike overhead ≤ efficiency gain |
+| C4: Silicon CMOS | 0.90 [0.85-0.98] | 2-5× | 5-10 yr | MEASURABLE | GAA/CFET extend Moore's law through 2035 |
+| C5: Spintronic | 0.35 [0.15-0.50] | 50-500× | 15-20 yr | NOT MEASURABLE | Spin logic gain >1 at room temp |
+| C6: Cognitive | 0.25 [0.10-0.40] | 20-100× | 15-25 yr | NOT MEASURABLE | New programming model maps to hardware |
+| C7: Photonic | 0.20 [0.10-0.35] | 100-1000× | 15-25 yr | NOT MEASURABLE | Optical logic fan-out >2 at sub-pJ |
+
+**JPCUB vs. FLOPS/Watt: where the metrics diverge.** The reader may ask whether JPCUB
+provides information beyond FLOPS/Watt. The metrics diverge when a paradigm improves
+throughput without improving energy per operation (as in T4 multi-core, where more cores
+increase FLOPS and decrease aggregate FLOPS/Watt from parallelism overhead, but per-op
+JPCUB is unchanged) or when efficiency gains come from reducing operations performed
+rather than reducing energy per operation (as in neuromorphic computing, where spikes
+replace frames and JPCUB captures the avoided computation that FLOPS/Watt cannot). For
+the post-silicon candidates, consider the in-memory case: an in-memory accelerator
+performing matrix multiplication via analog Kirchhoff's law circuits achieves a JPCUB
+improvement of 10-100× over a digital accelerator. The FLOPS/Watt of such a system is
+undefined — the "operations" are analog, not floating-point. JPCUB captures this gain
+by measuring the energy to complete the same computational task (matrix multiply),
+independent of whether the operations are digital or analog. This independence from
+a specific operation type is JPCUB's primary advantage over FLOPS/Watt — and the
+reason it can, in principle, compare across paradigms that FLOPS/Watt cannot.
 
 ## 4.3 Ranking Rationale
 
