@@ -60,12 +60,14 @@ This project validates or disconfirms that claim. It tests JPCUB retrospectively
 - [x] Build BibTeX database (refs.bib — 32 entries)
 - [x] Citation audit (Gate M3 MET: 32/32 covered, all traceable)
 
-### Phase 4: Deep Research & Structured Forecast
-- [ ] JPCUB retrospective analysis: compute JPCUB for each historical transition
-- [ ] Compare JPCUB signal timing vs traditional metrics
-- [ ] Prospective ranking of 7 post-silicon candidates
-- [ ] Structured forecast protocol (mandatory, all 11 stages)
-- [ ] Calibration register entries
+### Phase 4: Deep Research & Structured Forecast (COMPLETE — v0.5-phase4-deep)
+- [x] JPCUB retrospective analysis: computed JPCUB for each of 6 historical transitions (D-04)
+- [x] Compare JPCUB signal timing vs traditional metrics — JPCUB transitions LAG→COINCIDENT→LEAD over 6 transitions
+- [x] Prospective ranking of 7 post-silicon candidates (C1-C7, D-05)
+- [x] Structured forecast protocol (mandatory, all 11 stages, D-05)
+- [x] Calibration register entries (7 dated predictions with [STRONG]/[WEAK] tags, D-05 §Stage 5)
+- [x] Practical applications extension (5 domains, D-06)
+- [x] Counterfactual backcasting (4 disciplines × 2-3 tiers, D-07)
 
 ### Phase 5: Publication
 - [ ] Write paper (Genre A, Springer Nature template)
@@ -98,7 +100,7 @@ This project validates or disconfirms that claim. It tests JPCUB retrospectively
 | M1 | 1 | DUE-DILIGENCE | KG + D1 + 2 external sources queried, consilience gate passed |
 | M2 | 2 | LITERATURE | 5 sources searched, 5-10 core papers classified, historical data collected |
 | M3 | 3 | CITATIONS | BibTeX audit passed, all citations traceable — **MET 2026-07-31 (v0.4-phase3-cite)** |
-| M4 | 4 | DEEP-RESEARCH | Retrospective analysis complete, prospective ranking complete, calibration register populated |
+| M4 | 4 | DEEP-RESEARCH | Retrospective analysis complete, prospective ranking complete, calibration register populated — **MET 2026-07-31 (v0.5-phase4-deep)** |
 | M5 | 5 | PUBLICATION | Paper.md passes all gates, PDF builds clean, Zenodo DOI resolves |
 | M6 | 6 | DEPLOYMENT | D1 + papers-server + R2 verified |
 | M7 | 7 | DISSEMINATION | Buffer posts confirmed, SEO audit passed |
@@ -113,10 +115,10 @@ This project validates or disconfirms that claim. It tests JPCUB retrospectively
 | D-01 | PROJECT-PLAN.md | ./ | GitHub, R2 |
 | D-02 | Literature review | artifacts/literature-review.md | GitHub, R2, Zenodo |
 | D-03 | Consilience audit | artifacts/consilience-gate.md | GitHub, R2, Zenodo |
-| D-04 | JPCUB historical dataset | artifacts/jpcub-historical-data.csv | GitHub, R2, Zenodo |
-| D-05 | Structured forecast artifact | artifacts/structured-forecast-protocol-v2.md | GitHub, R2, Zenodo |
-| D-06 | Practical applications extension | artifacts/practical-applications-extension.md | GitHub, R2, Zenodo |
-| D-07 | Counterfactual backcasting | artifacts/counterfactual-backcasting.md | GitHub, R2, Zenodo |
+| D-04 | JPCUB historical dataset | artifacts/jpcub-historical-data.csv | GitHub, R2, Zenodo — **DONE v0.5** |
+| D-05 | Structured forecast artifact | artifacts/structured-forecast-protocol-v2.md | GitHub, R2, Zenodo — **DONE v0.5** |
+| D-06 | Practical applications extension | artifacts/practical-applications-extension.md | GitHub, R2, Zenodo — **DONE v0.5** |
+| D-07 | Counterfactual backcasting | artifacts/counterfactual-backcasting.md | GitHub, R2, Zenodo — **DONE v0.5** |
 | D-08 | Research paper | paper.md | GitHub, R2, Zenodo, D1 |
 | D-09 | Publication PDF | paper.pdf | GitHub, R2, Zenodo |
 | D-10 | PROVENANCE-BUNDLE.zip | releases/ | R2, Zenodo |
@@ -150,5 +152,6 @@ This project validates or disconfirms that claim. It tests JPCUB retrospectively
 
 | Version | Date | Description |
 |:--------|:-----|:------------|
+| v0.5-phase4-deep | 2026-07-31 | Phase 4: D-04 JPCUB historical dataset (6 transitions, SPEC Power anchor), D-05 structured forecast protocol (11 stages, 7 post-silicon candidates, calibration register), D-06 practical applications (5 domains), D-07 counterfactual backcasting (4 disciplines × 2-3 tiers). M4 MET. JPCUB validated as leading indicator (LEAD 3/5, LAG 1/5, COINCIDENT 1/5). |
 | v0.4-phase3-cite | 2026-07-31 | Phase 3: refs.bib (32 entries), citation audit PASSED (Gate M3 MET), citation-management.md |
 | v0.1-phase0 | 2026-07-31 | Project initialization, core claim lock, scaffold |
