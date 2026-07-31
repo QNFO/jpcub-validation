@@ -1,0 +1,27 @@
+# JPCUB Validation Project - .gitignore
+# Ephemeral scripts (may contain tokens during development)
+_*.py
+_*.js
+_*.ps1
+
+# Secrets and credentials
+.env
+*.token
+keys.json
+
+# OS and IDE noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+
+# Build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.pdf
