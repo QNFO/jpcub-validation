@@ -55,10 +55,10 @@ This project validates or disconfirms that claim. It tests JPCUB retrospectively
 - [ ] Collect historical JPCUB estimates for 6 major transitions (Phase 4 data task)
 - [ ] Collect traditional metric data for same transitions (Phase 4 data task)
 
-### Phase 3: Citation Management
-- [ ] Extract citations from computing-machines, QWAV whitepaper, and new literature
-- [ ] Build BibTeX database
-- [ ] Citation audit
+### Phase 3: Citation Management (COMPLETE — v0.4-phase3-cite)
+- [x] Extract citations from computing-machines, QWAV whitepaper, and new literature
+- [x] Build BibTeX database (refs.bib — 32 entries)
+- [x] Citation audit (Gate M3 MET: 32/32 covered, all traceable)
 
 ### Phase 4: Deep Research & Structured Forecast
 - [ ] JPCUB retrospective analysis: compute JPCUB for each historical transition
@@ -97,7 +97,7 @@ This project validates or disconfirms that claim. It tests JPCUB retrospectively
 | M0 | 0 | REPO-TARGET | GitHub repo public, feature branch, scaffold |
 | M1 | 1 | DUE-DILIGENCE | KG + D1 + 2 external sources queried, consilience gate passed |
 | M2 | 2 | LITERATURE | 5 sources searched, 5-10 core papers classified, historical data collected |
-| M3 | 3 | CITATIONS | BibTeX audit passed, all citations traceable |
+| M3 | 3 | CITATIONS | BibTeX audit passed, all citations traceable — **MET 2026-07-31 (v0.4-phase3-cite)** |
 | M4 | 4 | DEEP-RESEARCH | Retrospective analysis complete, prospective ranking complete, calibration register populated |
 | M5 | 5 | PUBLICATION | Paper.md passes all gates, PDF builds clean, Zenodo DOI resolves |
 | M6 | 6 | DEPLOYMENT | D1 + papers-server + R2 verified |
@@ -120,6 +120,7 @@ This project validates or disconfirms that claim. It tests JPCUB retrospectively
 | D-08 | Research paper | paper.md | GitHub, R2, Zenodo, D1 |
 | D-09 | Publication PDF | paper.pdf | GitHub, R2, Zenodo |
 | D-10 | PROVENANCE-BUNDLE.zip | releases/ | R2, Zenodo |
+| D-11 | Citation database (BibTeX) | refs.bib | GitHub, R2, Zenodo |
 
 ---
 
@@ -149,4 +150,5 @@ This project validates or disconfirms that claim. It tests JPCUB retrospectively
 
 | Version | Date | Description |
 |:--------|:-----|:------------|
+| v0.4-phase3-cite | 2026-07-31 | Phase 3: refs.bib (32 entries), citation audit PASSED (Gate M3 MET), citation-management.md |
 | v0.1-phase0 | 2026-07-31 | Project initialization, core claim lock, scaffold |
