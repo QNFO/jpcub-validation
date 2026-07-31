@@ -3,8 +3,8 @@ title: "JPCUB as a Leading Indicator of Computing Paradigm Shifts: Retrospective
 author: "Rowan Brad Quni-Gudzinas"
 date: "2026-07-31"
 license: "QNFO Unified License Agreement (QNFO-ULA)"
-doi: "PLACEHOLDER"  # Replaced after Zenodo upload
-status: "draft"
+doi: "10.5281/zenodo.21715610"  # Zenodo DOI — published 2026-07-31
+status: "published"
 bibliography: refs.bib
 ---
 

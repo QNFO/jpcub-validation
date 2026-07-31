@@ -69,10 +69,11 @@ This project validates or disconfirms that claim. It tests JPCUB retrospectively
 - [x] Practical applications extension (5 domains, D-06)
 - [x] Counterfactual backcasting (4 disciplines × 2-3 tiers, D-07)
 
-### Phase 5: Publication (IN PROGRESS — paper.md + paper.pdf built 2026-07-31)
-- [x] Write paper (Genre A, Springer Nature style via Pandoc+XeLaTeX) — paper.md written, 8 sections, ~25 citations
-- [x] PDF build and verification — 13 pages, zero U+FFFD/U+FFFF errors
-- [ ] Zenodo upload with DOI
+### Phase 5: Publication (COMPLETE — v1.0-publication)
+- [x] Write paper (Genre A, 8 sections, 36 citations, Pandoc+XeLaTeX) — paper.md
+- [x] PDF build and verification — 13 pages, zero rendering errors — paper.pdf
+- [x] Zenodo upload with DOI — 10.5281/zenodo.21715610 (resolved, HTTP 200 verified)
+- [x] DOI updated in paper.md YAML frontmatter
 
 ### Phase 6: Deployment
 - [ ] D1 living-paper insert
